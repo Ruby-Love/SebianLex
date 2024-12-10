@@ -1,0 +1,419 @@
+{
+    "Format": "2.0.0",
+	"DynamicTokens": [
+	{ "Name": "Teste",
+	   "Value": "223",
+	},
+		{
+			 "Name": "PositionXHaleyEventFarmHouse",
+			 "Value": "20",
+			 "When": {
+			   "Query: {{FarmhouseUpgrade}} >= 2": true
+			 },
+		},
+		{
+			 "Name": "PositionXHaleyEventFarmHouse",
+			 "Value": "4",
+			 "When": {
+				 "Query: {{FarmhouseUpgrade}} >= 2": false
+			 },
+		},
+					{
+			 "Name": "PositionXFarmerEventFarmHouse",
+			 "Value": "22",
+			 "When": {
+			   "query: {{FarmhouseUpgrade}} >= 2": true
+			 },
+		},
+		{
+			 "Name": "PositionXFarmerEventFarmHouse",
+			 "Value": "6",
+			 "When": {
+				 "query: {{FarmhouseUpgrade}} >= 2": false
+			 },
+		},
+		{
+			 "Name": "PositionYEventFarmHouse",
+			 "Value": "24",
+			 "When": {
+			   "query: {{FarmhouseUpgrade}} >= 2": true
+			 },
+		},
+					{
+			 "Name": "PositionYEventFarmHouse",
+			 "Value": "5",
+			 "When": {
+			   "query: {{FarmhouseUpgrade}} >= 2": false
+			 },
+		},
+	],
+	"Changes": [	
+	   // add map
+		{
+			"Action": "Load",
+			"Target": "Maps/kabulla.bakery_Interior",
+			"FromFile": "Assets/BakeryShopi.tmx"
+		},
+
+		// add location
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"kabulla.bakery_Interior": {
+					"CreateOnLoad": { "MapPath": "Maps/kabulla.bakery_Interior" },
+					"FormerLocationNames": [ "Custom_Bakeryshop" ]
+				}
+			}
+		},	   
+       {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/Bakeryabandoned.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 5, "Height": 8 },
+         "ToArea": { "X": 28, "Y": 49, "Width": 5, "Height": 8 }, 
+		 "When": {		 
+			  "HasSeenEvent |contains=80801010": false, 
+		   },
+	    }, 
+	 	{
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/Bakery2.tmx",
+         "FromArea": { "X": 0, "Y": 0, "Width": 5, "Height": 9 },
+         "ToArea": { "X": 28, "Y": 48, "Width": 5, "Height": 9 }, 
+		 "When": {			
+			 "HasSeenEvent": "80801010"
+		   },
+		 "Update": "OnLocationChange",   
+	    },
+
+	    {
+         "Action": "EditData",
+         "Target": "Strings/StringsFromMaps",
+         "Entries": {
+			"Bakery.1": "For rent",
+			"Bakery.2": "~ Haley's Bakery ~^Open Tuesday to Friday from 9am-3pm.",
+		  },
+	    },
+		{
+			"Action": "EditData",
+			"Target": "Data/ChairTiles",
+			"When": {			
+				"HasSeenEvent": "80801010"
+			},
+			"Entries": {
+				"bakeryshopi/8/3": "1/1/right/bench/-1/-1/false",
+				"bakeryshopi/8/4": "1/1/right/bench/-1/-1/false",
+				"bakeryshopi/8/5": "1/1/right/bench/-1/-1/false",
+				"bakeryshopi/8/6": "1/1/right/bench/-1/-1/false",
+			},
+		},
+		// dialogues
+	    {
+			"LogName": "Haley's Bakery Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"bakery_yes": "Oh my God, you're such a sweetheart! I knew you would support me.$h#$b#And you don't have to worry, I can do this without neglecting you or the household.#$b#Tomorrow morning, I'm going to talk to Robin to start the building makeover.#$b#I've already imagined every furniture and the decoration!$11#$b#Umm, I wonder how long it will take...#$b#I'm so excited!$h",
+				"bakery_no": "Oh, you are such an insensitive jerk!$a#$b#Leave me alone, and, you know? You better sleep on the couch tonight.%fork$a",					
+			},			
+		},
+		{
+         "Action": "EditData",
+         "Target": "Data/Events/FarmHouse",
+		 "When": {			
+			 "Relationship:Haley": "Married",
+		   },
+         "Entries": {
+			"80801000/t 600 2200/e 6184644": "ragtime/-1000 -1000/Haley {{PositionXHaleyEventFarmHouse}} {{PositionYEventFarmHouse}} 1 farmer {{PositionXFarmerEventFarmHouse}} {{PositionYEventFarmHouse}} 3/skippable/viewport -100 -100 true unfreeze/addConversationTopic BakeryConstruction 2/pause 1500/speak Haley \"The cake walk was a success! Thank you for your help!$h\"/pause 400/emote farmer 32/facedirection Haley 2/pause 400/facedirection Haley 1/pause 1000/speak Haley \"Look Honey... You're always telling me that my cakes and baking treats are delicious.$11#$b#And there's that old building near the hospital...\"/pause 1000/stopMusic/speak Haley \"So I was wondering...#$b#$q -1 null#What do you think of opening my own bakery?#$r 80801000 50 bakery_yes#What a wonderful idea! I will support you in everything you need.#$r -1 -250 bakery_no#I don't think it's a good idea.\"/fork nobakery/playmusic 50s/pause 1500/move Haley 1 0 1/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 1/pause 50/eyes 5 -5000/positionOffset Haley 2 1/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/animate farmer true true 100 101/pause 250/showFrame Haley 28/pause 200/speak Haley \"You are the best partner in the entire world!$l\"/specificTemporarySprite heart 9 13/pause 1000/globalFade/viewport -1000 -1000/pause 2000/end dialogue Haley  \"I'm already dreaming on my new cute bakery!$h\"",
+		    "nobakery": "end dialogue Haley \"I'm mad at you. Leave me alone.$a\"",	
+			"80801010/t 600 1200/e 80801000/q 80801000/A BakeryConstruction/w sunny/F":  "ragtime/-1000 -1000/Haley {{PositionXHaleyEventFarmHouse}} {{PositionYEventFarmHouse}} 1 farmer {{PositionXFarmerEventFarmHouse}} {{PositionYEventFarmHouse}} 3/skippable/viewport -100 -100 true unfreeze/pause 1500/speak Haley \"Hi honey!$11#$b#Robin just told me she finished the last details from the bakery rebuilding!\"/pause 500/jump Haley 3/pause 200/jump Haley 3/pause 200/jump Haley 3/speak Haley \"I'm so excited! Would you join me to see it together?$h\"/pause 500/emote farmer 32/pause 300/speak Haley \"Great! I'll meet you in the town later today!$h\"/end",
+		  },
+		},  
+		{
+         "Action": "EditData",
+         "Target": "Data/Events/Town",
+		 "When": {			
+			 "Relationship:Haley": "Married",
+		   },
+         "Entries": {
+			"80801020/t 600 1800/e 80801010/w sunny/F": "ragtime/-1000 -1000/farmer 31 59 0 Haley 29 59 0/skippable/viewport -100 -100 true unfreeze/pause 2000/facedirection Haley 1/facedirection farmer 3/pause 500/speak Haley \"Ow, it's lovely!$h#$b#I'm impressed with Robin's work, she transformed that old building into the cutest bakery ever!$11\"/pause 500/facedirection Haley 0/pause 400/facedirection Haley 1/pause 500/speak Haley \"Let's see inside!\"/globalFade/viewport -1000 -1000/changeToTemporaryMap kabulla.bakery_Interior/warp Haley 3 7/warp farmer 4 7/viewport 5 5 true/pause 1000/facedirection Haley 0/pause 500/facedirection Haley 1/pause 500/speak Haley \"Oh my God, I can't wait until the grand opening!$h\"/pause 500/speak Haley \"It will take a lot of work to get ready, so I'll start right now!\"/playMusic musicboxsong/pause 1000/facedirection Haley 1/speak Haley \"But before that... I think we have a minute or two...$l\"/pause 1000/positionOffset farmer 8 16 true/animate farmer true true 100 101/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame Haley 28/pause 500/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 700/playSound dwop/specificTemporarySprite heart 4 6/pause 2000/globalFade/viewport -1000 -1000/pause 1000/end",
+ 	
+		  },
+		},  
+		// Schedules changes
+		{    
+			 "Action": "EditData",
+			 "Target": "characters/schedules/Haley",
+			 "When": { 
+				"HasSeenEvent": "80801020",
+				"HasValue:{{DayEvent}}": "false"	
+			 },
+			 "Entries": {
+				 "marriage_Tue": "810 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.001\"/1100 kabulla.bakery_Interior 5 4 2 \"Strings\\schedules\\Haley:bakery.002\"/1300 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.011\"/1400 kabulla.bakery_Interior 4 3 0 \"Strings\\schedules\\Haley:bakery.008\"/1500 bed",
+				 "marriage_Wed": "810 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.003\"/1100 kabulla.bakery_Interior 5 4 2 \"Strings\\schedules\\Haley:bakery.004\"/1300 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.014\"/1400 kabulla.bakery_Interior 4 3 0 \"Strings\\schedules\\Haley:bakery.007\"/1500 bed",
+				 "marriage_Thu": "810 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.005\"/1100 kabulla.bakery_Interior 5 4 2 \"Strings\\schedules\\Haley:bakery.009\"/1300 kabulla.bakery_Interior 2 3 2  \"Strings\\schedules\\Haley:bakery.010\"/1400 kabulla.bakery_Interior 4 3 0 \"Strings\\schedules\\Haley:bakery.013\"/1500 bed",
+				 "marriage_Fri": "810 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.011\"/1100 kabulla.bakery_Interior 5 4 2 \"Strings\\schedules\\Haley:bakery.012\"/1300 kabulla.bakery_Interior 2 3 2 \"Strings\\schedules\\Haley:bakery.006/1400 kabulla.bakery_Interior 4 3 0 \"Strings\\schedules\\Haley:bakery.015\"/1500 Saloon 20 19 3 \"Strings\\schedules\\Haley:saloon.001\"/1930 bed",			
+			 },
+		},
+		{    
+			 "Action": "EditData",
+			 "Target": "characters/schedules/Lewis",
+			 "When": { 
+				"HasSeenEvent": "80801020",
+				"HasValue:{{DayEvent}}": "false"
+			 },
+			 "Entries": {
+				 "winter_16": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 57 2/1400 Town 41 57 0/1620 Beach 40 34 2 \"Strings\\schedules\\Lewis:winter_16.000\"/2300 ManorHouse 22 4 1 lewis_sleep",		
+				"19": "800 ManorHouse 8 5 0/1000 kabulla.bakery_Interior 3 5 0 \"Strings\\schedules\\Lewis:bakery.19\"/1500 ManorHouse 7 5 0 square_5_1_0/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+				"Fri": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 57 2/1400 Town 29 27 3/1700 Saloon 9 22 3 lewis_drink/2300 ManorHouse 22 4 1 lewis_sleep","default": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1140 Town 30 57 2/1400 Town 41 57 0/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep"				 
+			 },
+		},		
+		// schedule dialogue
+		{					
+			"Action": "EditData",
+			"Target": "Strings/schedules/Haley",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"HasValue:{{DayEvent}}": "false"	
+			},
+			"Entries": {
+				"bakery.001": "Cooking was always one of my hobbies, along with photography.#$b#Now I can make money from it!",
+				"bakery.002": "I use fresh valley ingredients whenever they are available.#$b#That's why the smell is so good!$h",
+				"bakery.003": "#$c .5#Sourdough bread is tastier and also more nutritious!#Sometimes all you need is a nice slice of cake to enjoy each moment!",
+				"bakery.004": "I used some of the farm melons to make these pink cakes!#$b#It's hard for me not to eat them!$h",
+				"bakery.005": "Hi Honey! It's so nice of you to come visit me at work!$l",
+				"bakery.006": "Hey beautiful! I'm glad you came to see me at work.#$b#I miss you when it's slow here...$l",				
+				"bakery.007": "Wow, today was busy here! I'm looking forward to going home and taking a long bath!$h",
+				"bakery.008": "Emily convinced me to use organic ingredients. Now we have gluten-free options, too!",
+				"bakery.009": "Honey, we are making good money with our little bakery.#$b#I'm so happy!$h",
+				"bakery.010": "I never thought that one day I'd have my own business.#$b#I'm so proud of myself!$h",
+				"bakery.011": "Hey beautiful, do you want some coffee?",
+				"bakery.012": "Lately I've only been thinking about new recipes!#$b#What do you think of a red velvet cheesecake?",
+				"bakery.013": "Um, I'm so tired today! I'd really enjoy it if you give me a massage tonight...$l",
+				"bakery.014": "#$c .5#It's hard to stay in shape with all these cakes around. Be honest, am I getting fat?$s#I'm craving for a slice of cake now...",
+				"bakery.015": "I'm  almost done here... Let's hang out at the saloon after work?",
+				"saloon.001": "#$c .5#I come here on Fridays to relax a little after a full week!#It's fun to meet everybody here at Gus's!#$e#Buy me a drink, handsome?$h",
+			}
+		},
+		{					
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"HasValue:{{DayEvent}}": "false"	
+			},
+			"Entries": {
+				"bakery.19": "I'm here to collect Haley's taxes.",
+			}
+		},
+		// marriage dialogues
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"DayOfWeek": "Tuesday",
+				"HasValue:{{DayEvent}}": "false"
+			},
+			"Entries" : {
+				"funLeave_Haley": "#$c .5#Have a wonderful day, Honey. I'll see you tonight.#I need go to work soon.#$e#Can I have a kiss before leave?$11",
+				"funReturn_Haley": "#$c .5#How was your day, honey? Mine was good too, thank you!#The bakery was full all day. Phew!#$e#Let's take a bath?$l",
+			},			
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"DayOfWeek": "Wednesday",
+				"HasValue:{{DayEvent}}": "false"
+			},
+			"Entries" : {
+				"funLeave_Haley": "#$c .5#Good morning! Did you sleep well?$h#Did you sleep okay? You were snoring a little.$h#$e#I've got to go. Have a good day!",
+				"funReturn_Haley": "#$c .5#I'm glad you're home. I'd love to spend time with you tonight...$l#Wow, you look like you did a lot of work today. Let me help you de-stress.$l",
+			},			
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"DayOfWeek": "Thursday",
+				"HasValue:{{DayEvent}}": "false"
+			},
+			"Entries" : {
+				"funLeave_Haley": "#$c .5#Good morning, dear. Another day of hard work, huh?#Don't overwork yourself, dear.#$e#I'll be thinking of you. <$h",
+				"funReturn_Haley": "#$c .5#*phew*! I just finished my chores. Now we can spend some time together...*wink*$h#Are you done with your work for the day? I'm ready to have some fun.$l",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			"When": { 
+				"HasSeenEvent": "80801020",
+				"DayOfWeek": "Friday",
+				"HasValue:{{DayEvent}}": "false"
+			},
+			"Entries" : {
+				"funLeave_Haley": "#$c .5#I'm thinking of going to the saloon after work. Do you feel like?#Finally it's Friday! Want to grab a drink after work?",
+				"funReturn_Haley": "#$c .5#It was so fun tonight! I'm a little dizzy now...#We should go on a romantic date this weekend!$l",
+			},			
+		},
+		{
+		  "Action": "EditData",
+            "Target": "Data/Shops",
+			"When": { 
+				"HasSeenEvent": "80801020"				
+				},
+            "Entries": {
+			  "kabulla.bakery_Bakeryshop": {
+				"Currency": 0,
+				"StackSizeVisibility": null,
+				"OpenSound": null,
+				"PurchaseSound": null,
+				"PurchaseRepeatSound": null,
+				"PriceModifiers": null,
+				"PriceModifierMode": "Stack",
+				"Owners": [
+				  {
+					"Condition": null,
+					"Portrait": "Haley",
+					"Dialogues": [
+							// dialogue on summer days
+							{
+								"Id": "Custom_BakeryShop_Summer",
+								"Condition": "SEASON Summer",
+								"Dialogue": "Why don't you try these tasty blueberry tarts?",
+								"RandomDialogue": null
+							},
+							// dialogue on winter days
+							{
+								"Id": "Custom_BakeryShop_Winter",
+								"Condition": "SEASON Winter",
+								"Dialogue": "How about a hot coffee today?",
+								"RandomDialogue": null
+							},
+							// dialogue any other time
+							{
+								"Id": "Custom_BakeryShop_Default",
+								"Dialogue": "Breads and desserts made every day!",
+								"RandomDialogue": null
+							}
+						],
+					"RandomizeDialogueOnOpen": true,
+					"ClosedMessage": null,
+					"Id": "Haley",
+					"Name": "Haley"
+				  }
+				],
+				"VisualTheme": null,
+				"SalableItemTags": [
+				  "category_sell_at_pierres_and_marnies",
+				  "category_milk",
+				  "category_egg",
+				  "category_meat"
+				],
+				"Items": [
+				   // Always have
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.Bread",
+                            "ItemId": "(O)216",
+							"Price": 80,
+							"AvailableStock": 5,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.Pancakes",
+                            "ItemId": "(O)211",
+							"Price": 100,
+							"AvailableStock": 5,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.Coffee",
+                            "ItemId": "(O)395",
+							"Price": 160,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.TrippleShotExpresso",
+                            "ItemId": "(O)253",
+							"Price": 480,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.ChocolateCake",
+                            "ItemId": "(O)220",
+							"Price": 280,
+							"AvailableStock": 5,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.Cookie",
+                            "ItemId": "(O)223",
+							"Price": 140,
+							"AvailableStock": 5,
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.FruitSalad",
+                            "ItemId": "(O)610",
+							"Price": 500,
+							"AvailableStock": 5,
+                        },
+						
+						// seasonal
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.PinkCake",
+                            "ItemId": "(O)221",
+							"Price": 520,
+							"AvailableStock": 5,
+							"Condition": "SEASON Summer",
+                        },
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.BlueberryTart",
+                            "ItemId": "(O)234",
+							"Price": 190,
+							"AvailableStock": 5,
+							"Condition": "SEASON Summer",
+                        },
+						{
+                            "Id": "kabulla.bakery_Bakeryshop.PoppyseedMuffin",
+                            "ItemId": "(O)651",
+							"Price": 400,
+							"AvailableStock": 5,
+							"Condition": "SEASON Summer",
+                        },								
+                        {
+                            "Id": "kabulla.bakery_Bakeryshop.RhubarbPie",
+                            "ItemId": "(O)222",
+							"Price": 480,
+							"AvailableStock": 5,
+							"Condition": "SEASON Spring",
+                        },
+						{
+                            "Id": "kabulla.bakery_Bakeryshop.PlumPudding",
+                            "ItemId": "(O)604",
+							"Price": 300,
+							"AvailableStock": 5,
+							"Condition": "SEASON Spring",
+                        },		
+						{
+                            "Id": "kabulla.bakery_Bakeryshop.CranberryCandy",
+                            "ItemId": "(O)612",
+							"Price": 180,
+							"AvailableStock": 5,
+							"Condition": "SEASON Fall",
+                        },	
+						{
+                            "Id": "kabulla.bakery_Bakeryshop.BlackberryCobbler",
+                            "ItemId": "(O)611",
+							"Price": 320,
+							"AvailableStock": 5,
+							"Condition": "SEASON Fall",
+                        },	
+				],
+				"CustomFields": null,
+				"ApplyProfitMargins": null
+			  },
+		  },
+		},
+	]
+}
+		 

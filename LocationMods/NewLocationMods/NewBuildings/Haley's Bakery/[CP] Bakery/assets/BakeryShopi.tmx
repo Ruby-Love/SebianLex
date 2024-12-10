@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
+ <properties>
+  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
+  <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825"/>
+  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285"/>
+  <property name="Warp" value="4 9 Town 29 56"/>
+ </properties>
+ <tileset firstgid="1" name="zbakeryshopi" tilewidth="16" tileheight="16" tilecount="200" columns="20">
+  <image source="bakeryshopi.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="201" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="18" height="15">
+  <properties>
+   <property name="warp" value="4 9 Town 29 58"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzLkNgDAUBFFXxl0DUAGHcQXmrIC7BfpkQtIvRyBWeuGOUt+dBx8BQkSIkTh2U2TIhb8CJSrU0GhghB2LFh16DBgxCTszFqzYsOPAKew8dzl8/71nNzLtDbM=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzi0SglAYheG7ClFEF6CCaCfqAhSDdiJ0InajdMTxj036BpLlnkBxhm/mKffMvHON6e4GcDDECC7G8DDBVOzMMMcCPgIsEWKFtdCILPsGW/E/O+wR4/CzHXESGollT5EJndyyFzgLnYtlv6IUOhVuqHFv3x544oU3PmiEVn//c1/wiBBD
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop kabulla.bakery_Bakeryshop none  900 1500 1 3 6 3"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop kabulla.bakery_Bakeryshop none  900 1500 1 3 6 3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="18" height="15">
+  <properties>
+   <property name="warp" value="9 13 Town 29 57"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzisTglAUReEj+EDNZrLZbDabyWazmWw2q4ygZvGNf80VtLpPsXFmvnLXzJ7bMLMAIZpooY0OInTRQ99+30D078WiD507I9HHzp2J6FPnTiL6zLkzF33h3ElFXzp3VqKvscEW2edthxwF9jjgKHZOKHHGBVfccMcDT1R4Of9d33/vDR+BE3I=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi+4CIQXwDic1B8GkmcEnCeQv2UmoPs/lNAfAaLOL3cQitzRsHgBgAALAtO
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

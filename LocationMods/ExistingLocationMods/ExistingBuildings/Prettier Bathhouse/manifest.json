@@ -1,0 +1,13 @@
+{
+    "Name": "Prettier Bathhouse",
+    "Author": "Pilzkopfi",
+    "Version": "1.0.5",
+    "UniqueID": "pilzkopfi.prettier.bathhouse",
+    "Description": "Overhaul of Bathhouse - more compact and with atmospheric decoration, immersive and lorefriendly",
+    "UpdateKeys": ["Nexus:28911"],
+    "MinimumApiVersion": "4.0.0",
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "2.0.0"
+     },
+ }

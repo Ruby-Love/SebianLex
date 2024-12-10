@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Haley's Bakery",
+   "Author": "kabulla",
+   "Version": "1.0.6",
+   "Description": "New bakery in town",
+   "UniqueID": "kabulla.bakery",
+   "UpdateKeys": [ "Nexus:15728" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+	   "IsRequired": true,
+    },
+}

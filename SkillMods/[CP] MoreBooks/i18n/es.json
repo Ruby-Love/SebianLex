@@ -1,0 +1,79 @@
+{
+    "Book.Immunity.Name": "Tăng cường miễn dịch",
+    "Book.Immunity.Description": "Đọc cuốn sách này để nhận được miễn dịch +1 vĩnh viễn.",
+    "Power.Immunity.Name": "Tăng cường miễn dịch",
+    "Power.Immunity.Description": "Nhận được khả năng miễn dịch +1.",
+
+    "Book.Luck.Name": "Sách vận may",
+    "Book.Luck.Description": "Đọc cái này để +1 vận may vĩnh viễn.",
+    "Power.Luck.Name": "Sách vận may",
+    "Power.Luck.Description": "Nhận +1 vận may.",
+
+    "Book.Speed.Name": "Sách vội vàng",
+    "Book.Speed.Description": "Đọc cái này để +0,5 tốc độ vĩnh viễn.",
+    "Power.Speed.Name": "Sách vội vàng",
+    "Power.Speed.Description": "Nhận +0,5 tốc độ.",
+
+    "Book.Fishing.Name": "Sách ngư dân",
+    "Book.Fishing.Description": "Đọc cái này để +1 câu cá vĩnh viễn.",
+    "Power.Fishing.Name": "Sách ngư dân",
+    "Power.Fishing.Description": "Nhận +1 câu cá.",
+
+    "Book.Magnet.Name": "Sách từ tính",
+    "Book.Magnet.Description": "Đọc cái này để tầm nhặt của bạn tăng lên 2 ô.",
+    "Power.Magnet.Name": "Sách từ tính",
+    "Power.Magnet.Description": "Tăng từ tính lên 2 ô.",
+
+    "Book.LewisShorts.Name": "Bí ẩn về cái quần đùi may mắn???",
+    "Book.LewisShorts.Description": "Đọc cuốn sách này để khám phá những bí ẩn về chiếc quần đùi may mắn :)).",
+    "Power.LewisShorts.Name": "Bí mật quần đùi may mắn",
+    "Power.LewisShorts.Description": "Bây giờ bạn có thể bán quần đùi may mắn.",
+
+    "Book.CarpenterCatalogue.Name": "Danh mục thợ mộc",
+    "Book.CarpenterCatalogue.Description": "Đọc cái này để có thể mua gỗ cứng và đất sét ở Robin và được giảm giá 10%.",
+    "Power.CarpenterCatalogue.Name": "Danh mục thợ mộc",
+    "Power.CarpenterCatalogue.Description": "Bây giờ bạn có thể mua gỗ cứng và đất sét từ Robin, đồng thời bạn được giảm giá 10% tại cửa hàng của cô ấy.",
+
+    "Book.OreCatalogue.Name": "Danh mục quặng",
+    "Book.OreCatalogue.Description": "Đọc cái này để có thể mua quặng iridium từ Clint và được giảm giá 10%.",
+    "Power.OreCatalogue.Name": "Danh mục quặng",
+    "Power.OreCatalogue.Description": "Bây giờ bạn có thể mua quặng iridium từ Clint, đồng thời bạn được giảm giá 10% tại cửa hàng của anh ấy.",
+
+    "Book.Rice.Name": "Trồng lúa xuất sắc",
+    "Book.Rice.Description": "Đọc cuốn sách này để học cách trồng lúa chất lượng.",
+    "Power.Rice.Name": "Trồng lúa xuất sắc",
+    "Power.Rice.Description": "Gạo chưa xay hiện có giá 100g, trong khi gạo xay có giá 200g.",
+
+    "Book.Dagger.Name": "Hướng dẫn làm chủ dao găm",
+    "Book.Dagger.Description": "Đọc cái này để tăng sát thương của dao găm.",
+    "Power.Dagger.Name": "Hướng dẫn làm chủ dao găm",
+    "Power.Dagger.Description": "Tăng 1.5x sát thương của dao gâm.",
+
+    "Book.GreenTea.Name": "Nghệ thuật trồng trà",
+    "Book.GreenTea.Description": "Đọc cuốn sách này để tìm hiểu cách cải thiện việc trồng lá trà và nâng cao kỹ năng pha trà của bạn.",
+    "Power.GreenTea.Name": "Nghệ thuật trồng trà",
+    "Power.GreenTea.Description": "Lá trà và Trà xanh có giá gấp 2 lần.",
+
+    "Book.GarbageCan.Name": "Buffet trong hẻm phần 2",
+    "Book.GarbageCan.Description": "Đọc cuốn sách này để tìm hiểu cách lục thùng rác hiệu quả(nghe dơ vãi :v).",
+    "Power.GarbageCan.Name": "Buffet trong hẻm phần 2",
+    "Power.GarbageCan.Description": "Bây giờ có 7% cơ hội tìm thấy đá quý (Ngọc lục bảo, Ngọc xanh biển, Hồng ngọc, Thạch anh tím, Hoàng ngọc, Ngọc bích hoặc Kim cương) trong thùng rác.",
+
+	"Mail.Lewis.Text": "Chào @,^^  Ta phát hiện có người đang lấy trộm quần short của ta từ tầng hầm, vì vậy để ngăn người khác lấy được, ta sẵn sàng mua lại từ cháu với giá 1000g mỗi chiếc. Tuy nhiên, vui lòng hạn chế sử dụng chúng làm nguyên liệu cho món Luau. Đọc cuốn sách này để hiểu chi tiết. ^^-Your Lewis",
+	"Mail.Lewis.Title": "Lewis",
+
+    "Mail.Linus.Text": "Chào @,^^  Gần đây ông đã phát hiện ra một phương pháp tìm kiếm thùng rác hiệu quả và kín đáo nên ông đã viết một cuốn sách về phương pháp đó và gửi cho cháu như một hành động của tình bạn. Đọc thoải mái nhé! ^^-Your Linus",
+	"Mail.Linus.Title": "Linus",
+
+    "Mail.Caroline.Text": "Chào @,^^  Cô muốn thông báo với cháu rằng gần đây cô đã viết một cuốn sách về nghệ thuật trồng trà và pha trà. Cô đã dành rất nhiều thời gian để hoàn thiện kỹ năng này và cô rất mong cháu, người bạn thân nhất của cô, hãy xem qua nó. Đọc vui vẻ nhé! ^^-Your Caroline",
+	"Mail.Caroline.Title": "Caroline",
+
+    "Mail.Pierre.Text": "Chào @,^^  Chú muốn giới thiệu cho cháu một cuốn sách hay do bạn chú, một chuyên gia trồng lúa viết, vì cháu là một người bạn thân thiết của chú. Ngoài ra, chú sẽ cung cấp cho cháu thông tin liên hệ của những cá nhân đang có nhu cầu cấp thiết về gạo chất lượng cao như cháu. Chú hy vọng cháu thích cuốn sách này! ^^-Your Pierre",
+	"Mail.Pierre.Title": "Pierre",
+
+    "Mail.Robin.Text": "Chào @,^^  Cô muốn chia sẻ với cháu cuốn sách độc quyền của cô, cuốn sách chứa đựng những hiểu biết sâu sắc có giá trị về nghệ thuật nghề mộc. Sau khi cháu đọc nó, cô sẽ coi cháu như người bạn tâm giao thực sự của mình và thậm chí còn giảm giá cho cháu tại cửa hàng của cô. Thưởng thức cuốn sách nhé! ^^-Your Robin",
+	"Mail.Robin.Title": "Robin",
+    
+    "Mail.Clint.Text": "Chào @,^^  Tôi rất vui được chia sẻ cuốn sách yêu thích của tôi với cậu, đó là một kho tàng kiến ​​thức về quặng và nghề rèn. Khi đọc nó, tôi sẽ coi cậu như một người bạn tâm giao và sẽ giảm giá cho cậu tại cửa hàng của tôi. Thưởng thức nội dung của nó nhé! ^^-Your Clint",
+	"Mail.Clint.Title": "Clint",
+}

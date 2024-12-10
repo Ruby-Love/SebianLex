@@ -1,0 +1,881 @@
+
+
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+     
+      "FirstTimeEvent": {
+          "AllowValues": "true, false",
+          "Default": "true"
+        },
+      "GenderNeutral": {
+        "AllowValues": "true, false",
+        "Default": "false"
+      },
+      "SpecialWedding": {
+        "AllowValues": "true, false",
+        "Default": "true"
+      }
+    },
+
+     "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "Entries":
+      {
+
+  "Introduction": "Oh... you're that new farmer boy, aren't you?^Oh... You're that new farmer girl, or whatever. Aren't you?#$e#Huh? Oh... I'm Haley.#$e#Hmm... If it weren't for those horrendous clothes you might actually be cute.^Hmm... If it weren't for those horrendous clothes you might actually be pretty... Actually, never mind.$h",
+
+  "spring_5": "There's nothing to do here but sit around, it's soooo boring.$s#$b#I wish we had a mall here or something.",
+
+  "spring_6": "Are your clothes always that dirty? You always seem...dirty.$7#$b#Can I recommend my favorite shampoo? It's great for frizz!$h",
+
+  "spring_7": "Muddy boots are *not* in this season, did anyone tell you?$s",
+
+  "spring_8": "I need to visit Zuzu City.#$b#I had the best Pink Cake ever last time I was there! You have to try it sometime!$h#$b#",
+
+  "sping_9": "You used to live in the city, right?#$b#Why would you ever come here, of all places? There's nothing good here.$s",
+
+  "spring_10": "I think my sister has to be an alien or something.#$b#I know you haven't seen it, but I swear I've seen her like, praying or meditating over some rocks or something...it's weird.$u",
+
+  "spring_11": "I can't wait for summer. The beach is beautiful when it's warmer out...#$b#...and a certain someone does all his training on the beach during summer...$h",
+
+  "spring_12": "This town is so small. It sucks.$u#$e#I have to drive, like, twenty miles to buy any decent clothes.$s#$b#And my sister's style is so different, shes's terrible to shop with...$#$b#Hey, have you ever been shopping?#$b#What?",
+
+  "spring_14": "I couldn't stand running around on a farm all day.$#$b#I'd get all sweaty and gross, and I *hate* being sweaty and gross.",
+
+  "spring_15": "You used to live in the city, right?#$b#You really don't look like it.",
+
+  "spring_16": "Nice makeup.#$b#Wait, are you even wearing any?$s#$b#Maybe you should borrow one of my fashion magazines...$s",
+
+  "spring_17": "I'm feeling an urge to go shopping. Ugh! I wish there was a mall here$s#$b#People watching was one of my favorite things to do. It's pretty hilarious making fun of people's weird outfits!$h#$b#What?",
+
+  "spring_18": "My sister is so weird. Sometimes I wonder if we're actually related.$u#$b#Like, who cares *that* much about rocks?$u#$b#Whatever. She looks too much like Mom to be adopted or something.",
+
+  "spring_19": "I wanna go shopping so bad right now.$s#$b#I used to go to the mall with my girlfriends all the time in high school.$h#$b#...$12#$b#Like, my friends who are girls...$12#$b#...#$b#Do you have friends?",
+
+  "spring_20": "The only thing I like about this town is the beach.$u#$b#There's so many more cute boys in the city.$s#$b#Here in town, there's only, like, Alex.$s#$b#...$s#$b#Maybe Sebastian is okay too.#$e#Don't tell him I said that.$u",
+
+  "spring_21": "Hey, @? I have kind of a weird question...$s #$q 20/21 spr21_followup#When you were little, did you ever fantasize about who you'd marry one day? #$r 20 -15 spr21_no#Not really. I'm not interested in that stuff.  #$r 20 0 spr21_prince#Yes, and I imagined myself with a handsome prince. #$r 21 +30 spr21_princess#Yes, and I imagined myself with a beautiful princess!.",
+          "spr21_no": "Oh...I see. Nevermind.$7",
+          "spr21_prince": "Oh...yeah, I totally did too. Super handsome.$s#$e#Yeah. I'd marry a suuuuper handsome prince. Although I did think I'd marry him a lot sooner...$s",
+          "spr21_princess": "A princess..?$s#$b#I guess I never thought of that...$s#$b#...$7#$b#Wait, does that mean you're into-?$12#$b#$e#I'm sorry. I mean, I've never met, um...someone like you?$s#$b#I guess that comes with being raised in a small town.$7",
+          "spr21_followup": "...$s#$b#it's nothing, actually$s#$b#Nevermind. See you later.$7",
+
+  "spring_22": "*sigh* Do you have a crush on anyone?$s#$b#It's so hard when they're like, totally oblivious to your feelings…$s",
+
+  "spring_23": "Oooh, the flower dance is tomorrow!$h#$b#I've been the Flower Queen for years, I'm so excited to take that title again.$h#$e#Don't bother asking me to dance, by the way.#$b#The answer's no.$h",
+
+  "spring_25": "You know…$s#$b#Alex isn't really that good at dancing…$s#$b#*sigh* Doesn't the Flower Queen deserve better?$s#$b#...you can dance, can't you? Ugh, maybe I should've said yes just to save myself the embarrassment.$u#$b#%You can't help but giggle a bit. You saw him dance, and he definitely wasn't that good. You say he should just stick to Gridball, and Haley laughs.#$b#Right?$h",
+
+  "spring_26": "I think Emily is going to try cooking with flowers tonight, I saw her picking dandelions off the ground earlier.$12#$b#You're a farmer, so like, you know which flowers are poisonous, right?$12",
+
+  "spring_27": "Spring is almost over…$s#$b#It's sad, but the prettier flowers always seem to bloom in summer!$h#$b#You'll grow some really nice ones, won't you?#$e#My favorite are sunflowers…just so you know.$h#$b#%You make a mental note of this, hoping that you'll be able to plant some for her.",
+
+  "spring_28": "Ahhh, summer is right around the corner!$h#$b#I can't wait for the warmer weather. I love being able to wear my shorter skirts.$h#$b#Not to mention, I just bought a killer bathing suit… $13",
+
+
+
+
+  "summer_4": "I'm glad that the flowers are starting to bloom.#$b#Those pink ones smell so good. They kind of remind me of you!$h#$b#Why are you looking at me like that?$s",
+
+  "summer_5": "I have a big headache, but Emily keeps trying to give me some weird 'holistic' medicine, or whatever.$s#$b#I don't think it'll help...$s#$b#Do you think a massage might help..?$s",
+
+  "summer_6": "I actually cooked dinner last night!$h#$b#I made a huge mess of the kitchen, but it turned out super good.$h#$b#Maybe I *would* be a good housewife after all...$13",
+
+  "summer_7": "I'm thinking about donating a bunch of clothes...$s#$b#Would you wanna come over and help me sort them all? We could even gossip while we work. I have some *major* dirt on Abigail.$h",
+
+  "summer_8": "I'm going to get such a nice tan this summer.#$b#You should totally come with me next time I go to the beach, and bring your hottest swimsuit. I'll bring mine too. We'll be sure to catch eyes then.$13#$b#%You tell her you don't really want to catch any eyes, you just want to relax.#$b#Ugh, you're no fun.$s",
+
+  "summer_9": "Ugh, this weather is too much sometimes...but you're working right through it...#$b#Huh, you're pretty tough, aren't you?$h#$b#I really admire that.",
+
+  "summer_10": "If you stay in the sun a lot it'll make your hair lighter. I read it in one of my fashion magazines.#$b#But I think your hair is nice enough as it is!#$b#You're like, naturally gorgeous, you know that?#$b#%You smile at the compliment, and Haley smiles in return. Your heart flutters.",
+
+  "summer_12": "You look really nice today, @.#$b#I don't know how you do it, but...whatever you're doing, keep doing it.$h",
+
+  "summer_13": "I was watching tv the other night, and there was this modelling competition on.#$b#Sometimes I forget just how pretty girls can be when done up like that...#$b#We should do a fasion show or something, show off our fave clothes. Good idea, huh?$h",
+
+  "summer_14": "Sometimes I wonder if I should've gone to college.$s#$b#I feel like I missed out on all those 'college experiences'...Like partying, joining a sorority, hooking up with a g-$s#$b#I mean!$12#$b#Well, you know what I mean!$12#$b#%You smirk. Hooking up with a girl? Haley gently smacks your arm.#$b#Stop it!$12",
+
+  "summer_15": "I dated my last boyfriend when me and Emily went on a long trip to Zuzu City. It was more of a fling, but it was fun.#$b#For the most part, anyways. It always felt kinda weird being with him and stuff.$s#$b#I thought I'd always be the lovey-dovey PDA type but...ugh, it made me *so* uncomfortable.$s#$b#You ask her why it was uncomfortable, if she feels comfortable sharing.#$b#I seriously couldn't tell you. Something just felt off.$s",
+
+  "summer_16": "Alex keeps trying to call me, but I wasn't really feeling it after our date...$s#$b#Like, I thought things were going well, but there wasn't that *spark* when we kissed, you know?$s#$b#And...there's supposed to be a spark, right?$#$b#I don't know, I'm confused...",
+
+  "summer_17": "It's soooo hot today!$s#$b#Wanna go swimming? I've got a prime spot picked out on the beach today!$h#$e#Don't worry, I'll bring the sunscreen. I wouldn't let you get burnt.$h",
+
+  "summer_18": "Hmmm...$s#$b#Oh, hey @. Sorry, just doing some...thinking. Did you need something?$7",
+
+  "summer_19": "My friends always said I had pretty handwriting. I think I do too.#$b#It always made my love notes look soooo pretty, and way better than anybody else's.#$b#Have you...ever written a love note to someone?$l",
+
+  "summer_20": "I want to take some scenic pictures of the beach, maybe submit them to some travel magazines.#$b#That'd really get Pelican Town on the map, don't you think?$h",
+
+  "summer_21": "Be sure to wear suncreen while out on your farm all day, okay @?$s#$b#It'd be awful if you got a really bad sunburn.$s#$b#But, if you do, I've got this awesome cream that we can apply to make it better!$h",
+
+  "summer_22": "It feels like a really lazy day.#$b#I'd love to just lay out on a lounger with a good magazine and a fruity cocktail.#$b#Sounds pretty great, right @?$h",
+
+  "summer_23": "I talked to Emily the other night, and we talked for quite a while.#$b#I didn't really tell her exactly what's been on my mind, but Emily was so excited to tell me about what her friend Sandy has been up to, and about work, you know, stuff like that.#$b#It was...actually really nice to just talk for a while.",
+
+  "summer_24": "I guess living in the country isn't so bad.#$e#If I lived in the city I might start to miss all the trees.#$e#@, I think I've been hanging out with you too much.$h",
+
+  "summer_25": "Hey, @? Have you ever imagined yourself having a family?$l#$b#I mean, kids, a house, a beautiful wife-#$b#I mean, not me- I don't want to be-$12#$b#Well, I mean, that's not to say I'd say no if you-$12#$b#...$12#$b#...I have to go.$12",
+
+  "summer_26": "You look really good in those shorts, where did you get them?#$b#Your legs look *amazing*.$13#$b#...I'm jealous...$13#$b#You wanna hang out later? No reason.$13",
+
+  "summer_27": "Do you have bunnies on your farm? I'm kind of a sucker for cute little animals.#$b#And...*mumbles*...#$e#Oh, I didn't say anything!$h#$b#See you.",
+
+ 
+  "summer_28": "The moonlight jellies are making their way over tonight. Exciting, isn't it?#$b#The light they give off is so soft and romantic...#$b#*sigh* I wash I had a date...#$b#...#$b#...are you going with anyone?$h",
+
+
+ 
+
+  "fall_1": "It's fall already?$s#$b#Ah, well. That just means it time to start getting cozy.$h#$b#Do you have a fireplace over at your farmhouse? They're suuuper cozy. Know what I mean?$13",
+
+  "fall_2": "*yawn* This chilly weather makes me want to take a nap.#$b#It'll be way too cold in winter, but this is perfect!$h",
+
+  "fall_3": "Looks like you've been busy on the farm...hm.$7#$b#%Haley licks her thumb, reaches over, and rubs some dirt off of your face. Her thumb lingers near your lips for just a moment, but she pulls her hand back before she can seem suspicious.#$b#There, better!$h",
+
+  "fall_4": "You got a pretty nice tan over the summer, @. It really suits you!#$b#I'm super jealous. I wish I tanned that nicely!$13",
+
+  "fall_5": "You know...Sometimes I wonder if I took the right path in life.$s#$b#I'm content with my life, I think, but there's just *something* missing, know what I mean?$s#$b#For a while, I thought maybe I was missing a relationship, but...I don't know, stuff just didn't pan out with Alex...$s",
+
+  "fall_6": "Hm, you've got a bunch of grass stains on your clothes.$7#$b#Emily has this really good stain remover, if you ever wanna come over with some of your laundry.#$b#Don't worry, I'd give you something to wear! We're totally the same size.$h",
+
+  "fall_7": "I've never been to the forest in all my time living here. Maybe you could take me, show me around? I'm sure the lake is beautiful.",
+
+  "fall_8": "Something smells earthy...#$b#Oh, hey @!$h#$b#Ha, I've started associating that smell with you. Whenever I'm outside and I smell something earthy, I always think of you.#$b#In a good way, I promise!$h",
+
+  "eventSeen_230531002_memoryoneweek": "@, have you ever been like, super scared to tell someone something?$s#$b#It's...nothing serious, I guess, but I've been terrified of telling Emily...$s#$b#I know we've gotten close enough that you're here for me, but...*sigh*$s#$b#I wish it was easier to just say things.$s",
+              
+  "fall_10": "If you're ever bored, don't be afraid to come by.$h#$b#My door is *always* open if you want to come around.$13",
+              
+  "fall_11": "Sometimes shopping doesn't sound as fun as it used to, but then I remember I've got a new shopping buddy with you!$h#$b#You'd tell me if something made me look ugly, right?$s#$b#Ha, not that I'm ugly by any means.$13#$e#Don't worry, I'd make sure you looked just as good.",
+              
+  "fall_12": "$p 48#Did I ever tell you I found another one of my great-grandma's bracelets in and old jewelry box in the attic?#$b#Do you, um...want to match?$l#$b#They could be like...um...l#$b#Friendship bracelets? Yeah. Friendship bracelets. [104] $13|See this bracelet? It belonged to my great-grandmother.#$b#You know, I found another one of her bracelets up in an old jewelry box in the attic.#$b#Would you wanna match? They could be like...um...$l#$b#Friendship bracelets? Yeah. Friendship bracelets. [104] $13",
+              
+  "fall_13": "Something about you running all over the place makes me want to do more too.$s#$b#Think I could help out on the farm? Something easy though!$h",
+              
+  "fall_14": "With you around all the time, I'm really starting to like the smell of dirt.$h#$b#They should make a perfume or something!$h",
+              
+  "fall_15": "I'm really happy to see you today, @.$l#$b#Somehow, I always feel better when you're around.$h",
+
+  "fall_17": "We're getting close, right @?$s#$b#Um, can I tell you something..?$s#$b#...$s#$b#...um, nevermind. It's not important.$7",
+
+  "fall_18": "Mm, the fallen leaves smell soooo good.$h#$b#Yeah, they're gross when they're all soggy and slimy, but you can't beat the smell of fall!$h",
+
+  "fall_19": "I kind of have a confession to make...$s#$b#I *think* I'm starting to get a crush on someone...$l#$b#But I'm not saying who!$h#$e#It's not Alex. That ship sailed loooong ago.",
+
+  "fall_20": "You must be looking forward to the winter season.#$b#I bet a break that long would be really relaxing!$h#$b#And a bonus, we could spend more time together! I learned a new cookie recipe I'm dying to try.$h",
+
+  "fall_21": "I can tell Emily's been worried about me lately...$s#$b#It's not that anything's wrong, really...I'm just working on personal stuff.$s#$e#...I'm scared of her reaction to what I might say...$s#$b#%You ask what she's so worried about. Surely it's nothing terrible.#$b#It's not, it's not. I just...$s#$b#Don't worry about it, okay?",
+
+  "fall_22": "I don't know if you knew, but I was a cheerleader in high school.#$b#Sometimes, I was worried whenever we'd get into uniform that I'd get caught staring at the other girls or something.#$b#But I wasn't being creepy, really!$s#$b#It was just because I wanted to be like them, or maybe it was...$s#$b#Um, nevermind...$s",
+
+  "fall_23": "It's chilly today...Do you wanna grab some coffee from Gus' and hang out later? I know a really good scenic spot we could sit.$l",
+
+  "fall_24": "To be honest, I actually really love this time of the season because Emily starts practicing her jack-o-lanterns, and whatever she doesn't like, I make into the *best* pie.$h#$b#Here, this one was especially made for you. [608] $l",
+
+  "fall_25": "I finally went to the mall to do some shopping the other day...and I saw a couple girls holding hands. They looked like they were maybe...in middle school?$s#$b#...did you know who you were that early, @?$s#$b#%You tell her you can't remember, but that everyone finds out at different times. Sometimes, even very late in their lives.#$b#Oh...$8",
+
+  "fall_26": "Ugh, I could *not* sleep last night. I was tossing and turning until 3 am!$s",
+
+  "fall_28": "Winter's just around the corner...they say winter is the season of love, you know. Maybe...$s#$b#Ah, nevermind. How are you today, @?",
+
+  "winter_1": "It's beautiful out today. Waking up to the ground covered in snow makes me want to snuggle up in bed even more!#$b#But it's too pretty to miss, so I might go for a little walk.#$b#And...maybe I'll see something even prettier.$l",
+
+  "winter_2": "I think I'm getting a little more comfortable with-#$b#Well, it's a secret. But...the snow makes you look pretty.$l#$b#Do you maybe wanna come inside for some coffee or something..?$l",
+
+  "winter_4":"Um...I'm a little busy right now, @...we can talk later...$s",
+
+  "winter_5":"I'm really emotional right now, do you mind if we talk later?#$b#I'm okay, don't worry @. I know who to come to if I need it.$h",
+
+  "winter_6": "Phew. I'm still a bit dizzy from yesterday. Is being emotional always so exhausting?$h#$b#So, um...how are you doing today?$l",
+              
+  "winter_7": "I guess it, um, might be a little obvious, but...$l#$b#Oh, nevermind. It's nice to see you, @.#$b#Can I swing by the farm later? I'm sure it's extra warm in there.$l",
+              
+  "winter_8": "Hmm...$s#$b#Maybe I should go to Pierre's and buy a...$s#$b#Oh, hey @. It's nothing.#$b#Although you probably already know what I'm thinking. You're good at that kinda thing...$l",
+              
+  "winter_9": "I wish we had a cafe here$s#$b#A cute little cafe date would be soooo nice...$s#$b#Wouldn't it, @?$13",
+              
+  "winter_10": "I've been writing a list of all the new styles I wanna get during spring. It's already 5 pages long!$h#$b#Don't worry, I did a lot of donating for the upcoming holidays.",
+              
+  "winter_11": "So, um...have you maybe been thinking of asking me something lately?#$b#Asking me what?$s#$b#*sigh* Well, isn't is obvious?$s",
+              
+  "winter_12": "You know, Pierre put out some new bouquets the other day. There was one that's my favorite color!$h#$b#I really hope it goes to the right person, they were absolutely beautiful flowers...$s",
+              
+  "winter_13": "@? I'm gonna be honest.$7#$b#Are you gonna ask me out? Because I'm not gonna lie, I've been waiting.$s#$b#I know it's pretty soon after I came out, but I think it's obvious I've got a crush on you by now.$s#$b#...$8#$.#That's actually just as crazy to admit as it was to admit I was a lesbian...$8#$b#Um, anyway. Yeah.$8",
+              
+  "dating_Haley_memory_oneday": "It's actually crazy to me that I have a *girlfriend*.$l#$b#And not just a girl friend, either.$l#$b#@, you've made me so happy.$l",
+              
+  "winter_15": "It's silly, but I'm still reeling a bit...$l#$b#Are you excited as I am to start this journey together?$l#$e#Ugh, I've never been so nervous in a relationship before, it's making me laugh! I feel like a school girl with a crush!$h",
+              
+  "winter_17": "Can we go shopping soon? I know winter will be over soon, but I'd *love* a new pair of winter boots.$s#$b#You need a new coat, too, there's holes in it!$h",
+              
+  "winter_18": "I think I accidentally donated one of my favorite skirts…$s#$b#Babe, we *really* need to go shopping now.$s",
+              
+  "winter_19": "Who's your secret friend this year?#$b#Wait, it's literally a secret…$s#$b#Well, I won't tell if you don't!$h#$e#I'm kidding, don't tell me! Mayor Lewis would be soooo mad!",
+              
+  "winter_20": "We haven't snuggled in a bit, are you okay, @?#$b#It's not because we haven't kissed yet, right?$s#$b#I'm trying, I really am, I'm just really nervous about it…$s#$b#%You tell her there's nothing to worry about! You're just busy on the farm, and it has nothing to do with a lack of kisses.#$b#Oh, that's not it? Phew, you had me scared!$h#$b#Well, remember to take a break from work, okay? We don't need you overworked.",
+              
+  "winter_21": "I think Emily is worried about me… she keeps asking if I'm okay, if I need anything, if I want to meditate…$s#$b#I think she thinks I'm not worked up enough over my first girlfriend!$h#$b#Well, maybe I'll meditate with her to calm her down.",
+              
+  "winter_22": "So, do your parents come to visit for the holidays?#$b#%You tell Haley that your parents live too far away to visit.#$b#Aw, they don't?$s#$b#Mine don't either. Hm, I guess we'll *have* to spend them together then!$h",
+              
+  "winter_23": "Babe, do you wanna come over for dinner tonight? Emily's making her squirrel loaf again!#$b#...$s#$b#Actually, I wouldn't want to come over either. Don't worry about it.#$e#Maybe Emily's a squirrel…",
+
+  "winter_24": "You know, I think the best present I could ever get this year is…$s#$b#Well…you.$l#$b#I don't think any gift I get could compare to how happy I am with you.$l",
+
+  "winter_26:": "I'm still full from all the food yesterday. Gus seriously knows how to cook!$h#$b#Anyways, did you get what you wanted yesterday? I totally forgot to ask!",
+
+              
+  "winter_27": "I don't know if I'm just seeing through rose-colored glasses, but you look totally beautiful today, @...$l#$b#Like, really, really beautiful...$13",
+
+  "winter_28": "Well, we're heading into a new year.#$b#%Haley takes your hand in hers, then squeezes it gently.#$b#I couldn't be more excited, @. Maybe, um....maybe you could come over tonight, so we could ring in the new year together?$l",
+
+  "spring_1_2": "Ahhh, spring!! I'm so glad it's warming up!$h#$b#Oh, and it's totally gorgeous out today!#$...$l#$b#Well, not as gorgeous as you, @...$l",
+
+  "spring_2_2": "Um, hey, @?$s#$b#I'm, um...$s#$b#%Haley sighs, fidgeting with her hands nervously. She glances at you.#$b#I think...$s#$b#%She stops talking. You ask her whats wrong, and she quickly looks away.#$b#I'll see you later!$12",
+
+  "spring_3_2": "Okay, okay, I admit it...$s#$b#...@, I think...I might be ready to kiss you.$s#$b#%You ask if she's sure. You don't want to pressure her, of course.#$b#Yes, I am...I know it's so insignificant, it's just a kiss but...I've never done these things with a girl, so...give me a couple days, okay?$s",
+
+  "spring_4_2": "I have a surprise for you, @! Come by my house sometime tomorrow, okay?$h#$b#I'm super excited to show you. You're gonna think it's sooo cool!$h#$b#%You tell her that anything she does will be cool, because *she's* cool.#$b#Ugh, you know all the right words to say, don't you?$l",
+
+  "spring_5_2": "Ugh, I'm still all flustered.$13#$b#What did you do to me, @?$13",
+
+  "spring_6_2": "I feel all jumpy. I feel like I'm...myself. You know what I mean?#$b#%You ask her to explain.#$b#It's like...$s#$b#Kissing you made everything truly fall into place. You're what I've been missing this whole time, @.#$b#And to be honest...$13#$b#...now that I've had some of you, I *definitely* want more...$13",
+
+  "spring_7_2": "I'm pretty tired today...$s#$b#Emily kept me up all night, she insisted we do some 'sisterly meditation', or whatever. She says we don't hang out enough anymore.$s#$b#I think I'll spend the day with Emily when I get a chance...$s",
+
+  "spring_8_2": "What is it about finally getting 'close' to a partner that makes you wanna go crazy, huh?$13#$b#It was never like this with any of my boyfriends, and *definitely* not with Alex...$s#$b#...can I have a kiss before you go?$11",
+
+  "spring_9_2": "I've been wondering what it's really like having a family, recently...$s#$b#I guess if we were to ever start a family, it'd be pretty unconventional, huh?$s#$b#%You tell her it's not very odd for kids to have two mothers, two fathers, or even just one parent. You tell her not to worry about being unconventional; the community she's now in has always been one to change the status quo.#$b#Jeez, you're full of all sorts of wisdom, aren't you?$h",
+
+  "spring_10_2": "What was your first time like, @?#$b#%You sputter. You're at a loss for words, taken aback by the question. You end up saying nothing.#$b#...was that too personal?$s#$b#I'm sorry, I should've asked before...well...asking.$s#$b#%You tell her it's fine, you just weren't expecting it...then you smile, and ask why she wants to know.#$b#...$12#$b#...$12#$b#Uh...$12#$b#Just...just curious...$12",
+
+  "spring_11_2": "Sorry for my super weird question yesterday.$s#$b#%You ask what she means by 'weird'.#$b#Well, okay, not exactly weird, but like...you know what I mean.$s#$b#It's just...we've been dating for a long time now, and...I'm just realy thinking of all those next steps in a relationship. All the scary ones I thought I already experienced...$s#$b#Everything's new, and I feel like I'm starting all over.$s#$b#%You tell her not to worry. Whatever steps happen to come along, you promise you'll take them together.#$b#...$l#$b#@...you always know just what to say...$l",
+
+  "spring_12_2": "My parents had a summer wedding, out on the beach. They were definitely lucky, I don't think the mayor would want to take everyone all the way to the beach with the wind, the sand, the crashing waves...$s#$b#Not saying that we should be planning a wedding any time soon, of course.$h#$b#Just a thought.",
+
+  "spring_14_2": "We should really hang out today, baby...$l#$b#It's my birthday, after all, I think I deserve some alone time with my girlfriend, don't you agree?$l",
+
+  "spring_15_2": "I finally told my parents I was a lesbian...$s#$b#%You ask her how it went, and if she needs anything from you.#$b#Oh, it went fine, actually! They were a little surprised, but they were actually really supportive.$h#$b#I think they were confused because of all my past boyfriends, but I explained as well as I could.#$b#You know, now that I think about it...I wonder if Emily ever had her suspicions before I came out...$s",
+
+  "spring_16_2": "What kinds of plants and crops are growing on the farm right now? Do you have any strawberries?#$b#I could go for a snack right about now.$s#$b#How about I come over and make Emily's special lemonade?$h#$b#%You ask her what makes it special.#$b#Oh, um...$s#$b#I don't know, actually.",
+
+  "spring_17_2": "Would you wanna be the subject of some new pictures I wanna take? I haven't submitted some to magazines in a while, but I want to get something new out there!$h#$b#The pictures with the cow were fun, but not quite the artistic vision I'm going for.$s#$b#%You ask her what vision she *is* going for. She shrugs in response.#$b#I think I'll play around for a while and get back to you.",
+
+  "spring_18_2": "Hmm, the more I think about it, the more I'm opening up to being married.$s#$b#That's not to like, pressure you or anything. It's just something I've been thinking about lately.#$b#What about you? Have you been thinking about it lately too?#$b#%You tell Haley that you haven't quite decided one way or another just yet.#$b#Oh, I see. That's totally fine.#$b# Like I said, I'm...willing to wait to marry you, or...well, even if you don't want to get married, at least be your partner in life.$l#$b#And...I love you, @. I know it's crazy to say, but I really do.$l",
+
+  "spring_19_2": "I wanna go shopping soooo bad. I haven't bought any new clothes in like, two weeks or something.$s#$b#I'd invite Emily, but last time I invited her she tried to get me in some weird poncho thing.$u#$b#And I do *not* look good in ponchos...$u#$b#%You tell her she'd look beautiful in just about anything.#$b#Ugh, shut up.$l3",
+
+  "spring_20_2": "I actually love %pet. Last time I visited the farm, they couldn't stop giving me loves!$h#$b#Baby, can we get another pet together someday?$l#$b#I think we'd be good pet parents!$h",
+
+  "spring_21_2": "It's weird, I've been a little more, um...$7#$b#%Haley clears her throat, a blush creeping into her cheeks. You ask her what's wrong.#$b#Oh, nothing, I just...7#$b#You wanna come over and make out..?$l#$b#Maybe in the privacy of the darkroom? Just a little nod to our first kiss...$l",
+
+  "spring_22_2": "I've been practicing my dance moves for the Flower Dance any chance I get lately, and I hope you have been too!#$b#You can't embarrass me.$u#$b#I'm so kidding babe, don't worry!$h",
+
+  "spring_23_2": "Well, tomorrow's the Flower Dance.#$b#Do you think Mayor Lewis will let us both be Flower Queen? I wanna share my title with my awesome, beautiful girlfriend.#$b#Yeah, there should totally be two Flower Queens.",
+
+  "spring_25_2": "You did *great* yesterday, babe!$h#$b#And, if I could just say, you were like, super pretty too...$l#$b#%Haley gives you a quick kiss. She backs away, and it seems like she wants to say something, but she stops.#$b#I'll see you later, okay?$l",
+
+  "spring_26_2": "All right @, I'm just gonna say this.$7#$b#One day, I wanna see you, in front of me, in a wedding outfit. Dress, suit, I don't care but...$l#$b#One day, I want to be yours. Whenever that day is.$l#$b#%You tell Haley she never seemed like the marrying type before.#$b#Well, yeah. That's because I hadn't met you, obviously.$13",
+
+  "spring_27_2": "It's starting to warm up. I can't wait honestly.#$b#Not just because we get to go sunbathing again, or because I get to see you in those killer shorts again, but Melon will be in season!$h#$b#And you know what that means? Pink Cake is in season too!$h",
+
+  "spring_28_2": "I can feel summer just around the corner.#$b#Are you excited to plant new crops?#$b#%You tell her that you're not very focused on crops lately, but that you have a surprise for her instead.#$b#Huh..?$8#$b#What do you mean, surprise?#$b#%You say you're not going to tell her, and she seems to pout a bit.#$b#Oh, all right. Well, I'll see you later then.$11",
+
+  "summer_3_2": "You really...your surprise was really a pendant?$l#$b#You never fail to flip my world upside-down, you know that?$l#$b#I can't wait to marry you, @.$l",
+
+  "summer_4_2": "I can't even begin to tell you how nervous I am about the wedding.$s#$b#Like, I'm super scared I'm gonna break out and ruin all our wedding photos!$s#$b#Can you just tell me everything will be okay, babe?$s#$b#%You promise her that everything will go well, that she has nothing to worry about, and that you love her.#$b#Thank you, @...I love you. I really do love you.$l",
+
+  "summer_5_2": "Well...tomorrow should be the big day...wow.$8#$b#I'm actually kind of terrified, to be honest...$8#$b#Well, and excited, but...ugh, there's a lot of stress that goes into a wedding!$s#$b#I have to go make sure there's no stains in my dress or anything...$s#$b#%Haley turns to walk away, but you grab her hand before she leaves, and you kiss her, promising once again that everything will be okay.#$b#...$l#$b#Okay...$l",
+
+  "summer_9_2": "Morning, babe...$l#$b#Um...I just want to say that last night was...amazing. Better than anything I've experienced till now.$l#$b#It's so different with someone you love...well, someone you're even attracted to in the first place.$13#$b#%You both laugh, then share a quick kiss. She hums happily.#$b#Anyway. Thank you for such a wonderful night, @...$l#$b#Hm...what do you say we take an early night tonight and...go again?$13"
+
+ }
+    },
+
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogue",
+        "Entries": {
+
+                "Rainy_Day_0": "I've definitely changed a lot over the years, but I still prefer sunny weather.$s#$b#What can beat getting a nice tan?$h",
+                "Rainy_Day_1": "Mm, on rainy days like this, I like to drink a nice cup of coffee and daydream...#$b#When we retire, what do you think about settling down in the Fern Islands?$h#$b#Beach life, ll day, every day...#$b#Perfect!$h",
+                "Rainy_Day_2": "Good morning, babe!$h#$b#Aww, you still look tired.$s#$b#Here. I got up early and baked something sweet! [223 234 211 651 731]#$e#Get some more rest tonight, okay?#$b#*muah!* Have a good day!$h",
+                "Rainy_Day_3": "I'd go out, maybe take a nice walk, but...$s#$b#Ugh, the rain would make my hair go all limp and sad. I always wanna look my best for you, but sad, limp hair would *not* be my best.$s",
+                "Rainy_Day_4": "If you go out in weather like this, pleeeease make sure to wipe your boots before coming in!$s#$b#Mud makes such a terrible mess...and trust me, I know how hard it is to get mud out of things.$s",
+                "Rainy_Day_Haley": "When is the sun coming back?$s#$b#I'm gonna get way too pale if this keeps up.$s",
+                "Rainy_Night_0": "Oh, you're back...$13#$b#I'm sooo cold by myself here, why don't we get into bed and snuggle under the covers..?$13",
+                "Rainy_Night_1": "All this rain is making me moody...$s#$b#Sorry if i seem mean or anything lately, I don't mean it. Just hard being cooped up.$s",
+                "Rainy_Night_2": "I really hope Emily isn't too lonely in that big house by herself...$s#$b#Do you think we could visit her for dinner at some point? I wanna make sure she's okay.$s",
+                "Rainy_Night_3": "Rain is horrible for a photographer. The lighting is awful, and you can't go outside without ruining your equipment!$s",
+                "Rainy_Night_4": "Hi, babe! I tried to make some dinner while you were out, I hope it's okay! [727 231 207 199]$h",
+                "Rainy_Night_5": "Hmmm, I think the country life actually kinda suits me!$h#$b#I'm really enjoying my life out here.",
+                "Rainy_Night_Haley": "I'm so glad you're home, baby...$l#$b#I was starting to get lonely.$l",
+                "Indoor_Day_0": "Good morning! What are your plans for the day?#$b#I think I'm gonna break out my camera and get some really nice pictures today. The lighting is *perfect* today!$h",
+                "Indoor_Day_1": "Morning babe! I made you some breakfast, just to get a good start to your day! [194 195 210 211 216]#$e#I know you're usually pretty busy with your work, so I just wanna support you however I can...and if that means breakfast, that's fine with me!",
+                "Indoor_Day_2": "Hey, did you have some trouble sleeping last night? You were snoring a little.$h#$e#Well, I've got some chores to do in here today. Have a good day, hope you get lots done. *muah!*$11",
+                "Indoor_Day_3": "I'm glad that I *finally* actually enjoy doing housework. This place gets messy so easily!$h#$b#From complaining about cleaning cushions to happily cleaning an entire house...$s#$b#Just another way you being in my life has changed me!$h",
+                "Indoor_Day_4": "Hey, good morning! Another day of farm chores, huh?#$b#Well, take it easy, you don't to exhaust yourself too much.#$b#I'll be thinking of you, okay? Love you!$h",
+                "Indoor_Day_Haley": "So much of my life was just...going through the motions and hoping that things were different for me.$s#$b#You being in my life changed all that for me.$#$b#Ah, sorry to get all sappy so early!$h#$b#Have a good day. Love you. *muah!*$11",
+                "Indoor_Night_0": "While you were out, I did some major chores.#$b#Finally cleaned the grout that had all that mud in it.$u#$b#I told you to wipe your boots, @.$7#$b#Ah well, you know I can't stay mad at you. Come give me a kiss.$13",
+                "Indoor_Night_1": "Ahhh, another day done. Let's relax for the rest of the night, okay?#$b#I'll make us some tea. Let's watch a movie or something!$h",
+                "Indoor_Night_2": "Ah, hi @! I'm so glad you're home!$h#$b#I get pretty lonely when you're out late, you know that?$13",
+                "Indoor_Night_3": "Done with your work for the day?#$b#Let's spend some time together then...$l#$b#How was your day, babe?$l",
+                "Indoor_Night_4": "Finally finished all my chores for the day. I'm pretty exhausted, but...well, I've got enough energy for bed time tonight!$h",
+                "Indoor_Night_Haley": "Aww, there's my big, strong, beautiful wife.$l#$b#You look sooo tense...$s#$b#Why don't we get to bed and I can help you...de-stress.$13",
+                "Outdoor_0": "Ahhh, the fresh air is sooo nice...$h#$b#Being indoors is okay, but sometimes you just really need a big breath of fresh air.",
+                "Outdoor_1": "Can we make sure we only have like, the *cutest* animals on the farm?$s#$b#Like, bunnies or chickens or something...$s#$b#And also, cute decor is totally important too! Let me know if you want me to decorate!$h",
+                "Outdoor_2": "Sorry I don't know much about farm work. I'm trying to learn by watching you.$l#$b#I'll help when I can, okay?$l",
+                "Outdoor_3": "Just gonna do a little cleaning over here. You go on and do your work.#$b#Love you! *muah!*$11",
+                "Outdoor_4": "Don't overwork yourself, okay? We definitely don't need you ending up in the hospital!#$e#Make sure to take a break every now and then, or get something good to eat!$h",
+                "Outdoor_Haley": "Ooh, the weather is perfect. Looks like it's a good day to work on my tan, don't you think, babe?#$b#I'll see you later!",
+                "OneKid_0": "Hey, have you spent any time with %kid1 today? I know you've been a little busy today, but go say hi while you've got the chance, okay?$h",
+                "OneKid_1": "Hmmm, do you think %kid1 will be a photographer or a farmer?#$b#Maybe we'll be surprised and %kid1 will be neither!!$h#$b#Or...$12#$b#...they'll be like their Aunt Emily...",
+                "OneKid_2": "Don't worry about feeding %kid1 today, I've got it.#$b#But you're definitely getting up with them tomorrow!$h",
+                "OneKid_3": "Life's soooo different now that we've got %kid1...$s#$b#We've been so focused on them that we hardly have time to ourselves...$s#$b#Why don't we take some time tonight and catch up?$l",
+                "TwoKids_0": "I fed %kid1 and %kid2 before you got up, so they're all ready to start the day.#$b#They totally have your appetite, by the way.$h",
+                "TwoKids_1": "I know %kid2 is so new, but I don't want %kid1 to think we forgot about them.$s#$b#Let's try and give %kid1 a little extra attention so they're not too jealous of their little sibling.",
+                "TwoKids_2": "You know %kid2 is a *very* good-looking baby...totally takes after me!$h",
+                "TwoKids_3": "A big house, two beautiful kids, and an absolutely gorgeous plot of land. I'm not sure what else I could ask for...#$b#...$s#$b#Well, aside from a slice of Pink Cake!$h",
+                "Good_0": "It's pretty hard to believe that after everything we've been through together, we're finally married...$l",
+                "Good_1": "I didn't want to admit it before, but...I've had a crush on you since you moved here.$l#$b#Sure, at first I didn't even know it was a crush, but...$l3",
+                "Good_2": "Ahh, married life. I get to be with you every day, snuggle with you every night...$l#$b#What could be better?$h",
+                "Good_3": "Ugh, you look soooo gorgeous today, I'm actually jealous.$13#$b#Did you take my makeup?$13",
+                "Good_4": "Your home is my home, now...just the thought makes me happy!$h",
+                "Good_5": "I was just admiring my wedding amulet... you really went all out, didn't you?$l",
+                "Good_6": "You better be careful going into those mines, @.$u#$b#I don't want you falling down any mineshafts or getting attacked by monsters.$u",
+                "Good_7": "Hey, babe, I just wanted to tell you that I really appreciate everything you do for us.$l#$b#It means a lot to me that you just want to take care of me.$l",
+                "Good_8": "Don't worry about me, I'm pretty content just hanging out here.#$b#Don't be surprised when I start getting packages from online shopping, though.#$b#And don't mind the stacks of magazines.#$b#Or the piles of clothes...#$b#Or the horde of makeup...$s",
+                "Good_9": "Oh, I'm not bored...I've actually got plenty to do.#$b#Being a housewife is just as tough as what you do, trust me.$13",
+                "spring_1": "Now that winter's over, we've got lots of sunny weather to look forward to. I'm excited.",
+                "spring_8": "It's really warming up lately. I could *not* be happier!$h",
+                "spring_23": "All right, babe, tomorrow's the Flower Dance.#$b#Have you been practicing your dance moves?$13#$b#It's my last year as Flower Queen, so I have to make it count!$13",
+                "summer_1": "I hope you're planting flowers! It makes the whole farm just smell beautiful!#$b#And, um...maybe some sunflowers, for me?$l",
+                "summer_8": "Thank god for 98 hour deodorant. I'd smell horrible in this heat$s.",
+                "summer_15": "Summer is nice, except for all the stupid bugs that get in from the windows being open...$u#$b#We have to get %pet in here to get them...$u",
+                "fall_1": "Well, I guess I can look forward to sunflowers being around another season. You're planting some, right?$h",
+                "fall_8": "Ughhhhh we have to do so much to prepare for winter...$s#$b#This old farmhouse would totally fall apart if we didn't.$s",
+                "fall_15": "Hey, are we doing a grange display tomorrow? Do you have some good stuff to put in it?$h",
+                "fall_26": "Hmm, maybe we should do matching costumes for Spirit's Eve this year...",
+                "winter_1": "*shiver*...yup, it's winter.$u",
+                "winter_7": "Are you going to enter the fishing contest tomorrow? You're pretty good at fishing, right?",
+                "winter_28": "It's been a wonderful year, @.$l#$b#I seriously can't wait to see what the next one brings.$l",
+                "spring_Haley": "I'm soooo glad winter is over, aren't you? Warm weather, fresh flowers, what's not to love about spring!$h",
+                "summer_Haley": "I love watching the fireflies on a hot summer's night. It's the closest I'll ever come to visiting the stars.",
+                "fall_Haley": "Even though I prefer summer, fall might be the best season to take pictures. Those long, low shadows...",
+                "winter_Haley": "I was just thinking about the time you helped me open a jar of pickles. Remember that?$h#$e#We've come a long way since then.$l",
+                "spouseRoom_Haley": "Go ahead and start your day, babe, I'm just doing my makeup routine!$h#$b#%Haley turns and gives your nose a couple swipes from her makeup brush.#$b#Have a good dayyyy!$h"
+        }
+
+        },
+        {
+
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueHaley",
+        "Entries": {
+
+                "Rainy_Day_0": "I've definitely changed a lot over the years, but I still prefer sunny weather.$s#$b#What can beat getting a nice tan?$h",
+                "Rainy_Day_1": "Mm, on rainy days like this, I like to drink a nice cup of coffee and daydream...#$b#When we retire, what do you think about settling down in the Fern Islands?$h#$b#Beach life, ll day, every day...#$b#Perfect!$h",
+                "Rainy_Day_2": "Good morning, babe!$h#$b#Aww, you still look tired.$s#$b#Here. I got up early and baked something sweet! [223 234 211 651 731]#$e#Get some more rest tonight, okay?#$b#*muah!* Have a good day!$h",
+                "Rainy_Day_3": "I'd go out, maybe take a nice walk, but...$s#$b#Ugh, the rain would make my hair go all limp and sad. I always wanna look my best for you, but sad, limp hair would *not* be my best.$s",
+                "Rainy_Day_4": "If you go out in weather like this, pleeeease make sure to wipe your boots before coming in!$s#$b#Mud makes such a terrible mess...and trust me, I know how hard it is to get mud out of things.$s",
+                "patio_Haley": "Hey baby!$h#$b#Quick, say 'goat cheese'!$h",
+                "Rainy_Day_Haley": "When is the sun coming back?$s#$b#I'm gonna get way too pale if this keeps up.$s",
+                "Rainy_Night_0": "Oh, you're back...$13#$b#I'm sooo cold by myself here, why don't we get into bed and snuggle under the covers..?$13",
+                "Rainy_Night_1": "All this rain is making me moody...$s#$b#Sorry if i seem mean or anything lately, I don't mean it. Just hard being cooped up.$s",
+                "Rainy_Night_2": "I really hope Emily isn't too lonely in that big house by herself...$s#$b#Do you think we could visit her for dinner at some point? I wanna make sure she's okay.$s",
+                "Rainy_Night_3": "Rain is horrible for a photographer. The lighting is awful, and you can't go outside without ruining your equipment!$s",
+                "Rainy_Night_4": "Hi, babe! I tried to make some dinner while you were out, I hope it's okay! [727 231 207 199]$h",
+                "Rainy_Night_5": "Hmmm, I think the country life actually kinda suits me!$h#$b#I'm really enjoying my life out here.",
+                "Rainy_Night_Haley": "I'm so glad you're home, baby...$l#$b#I was starting to get lonely.$l",
+                "Indoor_Day_0": "Good morning! What are your plans for the day?#$b#I think I'm gonna break out my camera and get some really nice pictures today. The lighting is *perfect* today!$h",
+                "Indoor_Day_1": "Morning babe! I made you some breakfast, just to get a good start to your day! [194 195 210 211 216]#$e#I know you're usually pretty busy with your work, so I just wanna support you however I can...and if that means breakfast, that's fine with me!",
+                "Indoor_Day_2": "Hey, did you have some trouble sleeping last night? You were snoring a little.$h#$e#Well, I've got some chores to do in here today. Have a good day, hope you get lots done. *muah!*$11",
+                "Indoor_Day_3": "I'm glad that I *finally* actually enjoy doing housework. This place gets messy so easily!$h#$b#From complaining about cleaning cushions to happily cleaning an entire house...$s#$b#Just another way you being in my life has changed me!$h",
+                "Indoor_Day_4": "Hey, good morning! Another day of farm chores, huh?#$b#Well, take it easy, you don't to exhaust yourself too much.#$b#I'll be thinking of you, okay? Love you!$h",
+                "Indoor_Day_Haley": "So much of my life was just...going through the motions and hoping that things were different for me.$s#$b#You being in my life changed all that for me.$#$b#Ah, sorry to get all sappy so early!$h#$b#Have a good day. Love you. *muah!*$11",
+                "Indoor_Night_Haley": "Aww, there's my big, strong, beautiful wife.$l#$b#You look sooo tense...$s#$b#Why don't we get to bed and I can help you...de-stress.$13",
+                "Outdoor_0": "Ahhh, the fresh air is sooo nice...$h#$b#Being indoors is okay, but sometimes you just really need a big breath of fresh air.",
+                "Outdoor_1": "Can we make sure we only have like, the *cutest* animals on the farm?$s#$b#Like, bunnies or chickens or something...$s#$b#And also, cute decor is totally important too! Let me know if you want me to decorate!$h",
+                "Outdoor_2": "Sorry I don't know much about farm work. I'm trying to learn by watching you.$l#$b#I'll help when I can, okay?$l",
+                "Outdoor_3": "Just gonna do a little cleaning over here. You go on and do your work.#$b#Love you! *muah!*$11",
+                "Outdoor_4": "Don't overwork yourself, okay? We definitely don't need you ending up in the hospital!#$e#Make sure to take a break every now and then, or get something good to eat!$h",
+                "Outdoor_Haley": "Ooh, the weather is perfect. Looks like it's a good day to work on my tan, don't you think, babe?#$b#I'll see you later!",
+                "funLeave_Haley": "Hey! I'm gonna head to town today, maybe hang out with Emily a bit. You'll be okay out here on your own, right?#$b#Well, I gotta go. Love you!",
+                "funReturn_Haley": "It was so nice seeing everyone!$h#$b#Emily's doing really well too. Trust me, it was a huge relief to hear.$h",
+                "OneKid_3": "God, it's soooo weird being a mom...$s#$b#I don't know if I'll ever get used to it!$h",
+                "TwoKids_2": "You know %kid2 is a *very* good-looking baby...totally takes after me!$h",
+                "TwoKids_3": "A big house, two beautiful kids, and an absolutely gorgeous plot of land. I'm not sure what else I could ask for...#$b#...$s#$b#Well, aside from a slice of Pink Cake!$h",
+                "spring_2": "Either the ground is empty or you *just* planted seeds...$s#$b#Well, regardless, what are we planting this season? Anything good?$h",
+                "spring_1": "Now that winter's over, we've got lots of sunny weather to look forward to. I'm excited.",
+                "summer_3": "The air is unbelievably humid...I *hate* humidity.$s#$b#My hair can't stand it...sorry if I'm extra frizzy or anything.$s",
+                "summer_15": "Summer is nice, except for all the stupid bugs that get in from the windows being open...$u#$b#We have to get %pet in here to get them...$u",
+                "fall_2": "Ughhhh, I know I complained about it, but...I'm pretty sad that summer is over.$#$b#Fall means winter is soon, and winter means cold!$s",
+                "fall_1": "Well, I guess I can look forward to sunflowers being around another season. You're planting some, right?$h",
+                "winter_14": "My skin feels so dry in this weather, it's just awful...#$b#Guess I'll go apply *more* lotion...$s",
+                "winter_2": "Mm...I could go for some Pink Cake right about now. Something about the cold really makes me crave it, you know?#$e#Hint hint....$h",
+                "spring_Haley": "I'm soooo glad winter is over, aren't you? Warm weather, fresh flowers, what's not to love about spring!$h",
+                "summer_Haley": "I love watching the fireflies on a hot summer's night. It's the closest I'll ever come to visiting the stars.",
+                "fall_Haley": "Even though I prefer summer, fall might be the best season to take pictures. Those long, low shadows...",
+                "winter_Haley": "I was just thinking about the time you helped me open a jar of pickles. Remember that?$h#$e#We've come a long way since then.$l"
+              }
+
+        },
+        {
+
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/MarriageDialogueHaley",
+          "When": "HasSeenEvent 230531004 AND FirstTimeEvent true",
+          "Entries": {
+              "summer_9": "Morning, babe...$l#$b#Um...I just want to say that last night was...amazing. Better than anything I've experienced till now.$l#$b#It's so different with someone you love...well, someone you're even attracted to in the first place.$13#$b#%You both laugh, then share a quick kiss. She hums happily.#$b#Anyway. Thank you for such a wonderful night, @...$l#$b#Hm...what do you say we take an early night tonight and...go again?$13"
+
+          }
+        },
+  
+
+     {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alex",
+        "Entries": {
+                "spring_7": "Hey. New girl. I heard you were gay. #$q 30/31 spr7_followup#Does that mean I'm out of the game? #$r 30 -20 spr7_excuseme#Excuse me?! Yeah, you are absolutely out! #$r 30 0 spr7_yes#Um...yeah. Sorry. #$r 31 +30 spr7_notmytype#Yeah, sorry dude. You're not really my type, know what I mean?.",
+                		"spr7_excuseme": "Okay, you didn't have to bite my head off. I was joking.$a",
+                		"spr7_yes": "Damn. Okay.#$b#See ya.",
+                		"spr7_notmytype": "Ha! Good one!$h#$b#Yeah, I get it. I thought all ladies couldn't resist me!$h#$b#Guess I have some learning to do. See you around.",
+                		"spr7_followup": "That's pretty cool. I knew a gay guy in high school. I think he played volleyball or something.",
+								"spring_17": "Have you ever had a boyfriend?#$b#%Right away, you tell him that it's kind of rude to ask. You ask him if *he* has ever had a boyfriend.#$b#Hey! I have *never* had a boyfriend, I'm not gay-$a#$b#Ohhhh...I get it now...#$b#Sorry.$h",
+								"spring_20": "The Flower Dance is coming up. You have a date?#$b#Haley dances with me every year, and every year she gets better. There's a reason she's been Flower Queen for so many years!$h",
+								"spring_26": "Have you met Haley's sister, Emily? She's super weird.#$b#It's kinda hard to believe they're even related sometimes.#$b#Emily's actually really nice though. You should hang out with her sometime.#$b#Err, not because I think she's gay or anything-$7#$b#Well...actually...$9",
+								"summer_3": "Hey, I wanna apologize for being kinda weird about the g-$s#$b#Sorry, *lesbian* thing.$h#$b#I looked it up online a couple days ago, some lesbians don't like being called gay, right?#$b#%You tell him it's just a matter of personal preference, and sometimes some people use them interchangably.#$b#I see. Well, I wanted to learn a little bit. I don't wanna treat you any different from anyone else, I'm not that kinda guy.#$e#So, what's it like kissing a girl as another girl?#$b#Kidding, kidding!!!$h#$b#See ya.",
+								"summer_6": "I've been thinking of asking Haley on a date. I've asked a couple times but she always says she's busy or whatever.$s#$b#Are you dating anyone?#$b#%You tell him you're not.#$b#Damn, guess we're both pretty single then...$s",
+								"summer_10": "Hey, guess what? I got a date with the hottest girl in town!$h#$b#I've been asking Haley out forever, and she finally said yes!$h#$b#%This makes you uncomfortable, but you choose not to say anything. If she didn't say yes for this long, this budding relationship is probably doomed. You tell him good luck, then leave.",
+								"summer_15": "%You see Alex, and you ask him how the date went.#$b#Oh, I thought it was great! She seemed to have a really good time, and the night ended on a *really* good note.$h#$b#I think this is finally going somewhere!$h#$b#%You say you're happy for him, but you can't help but feel a little sad for some reason.",
+								"summer_16": "She hasn't answered any of my calls since our date...I thought it went well...$s#$b#Do you think I did something wrong..?",
+								"summer_20": "Well, Haley finally called back.$s#$b#She said it wasn't gonna work out...$s#$b#...$s#$b#...@...do you think she's-$s#$b#%You stop him right there. You don't know, and it's none of your business. You tell him it's none of his business either. Besides, it wouldn't matter. She just didn't like him, end of story. Alex looks visibly upset, and turns and leaves. You sigh.",
+								"summer_21": "Hey, um...I wanted to apologize for yesterday.$9#$b#I know I joked about it before, but...I'm really not used to being rejected and just wanted to make an excuse to make myself feel better...$9#$b#So I'm sorry. And thanks for kinda snapping at me. It helped.$9#$e#...I'm gonna apologize to Haley too...$9",
+								"summer_27": "I saw you and Haley at the beach the other day. You guys looked great in your swimsuits!$h#$b#And I mean that in the least creepy way possible.$h#$e#I'll be honest, I've been really trying to be normal about being around women.It isn't creepy to tell a woman she looks good right?#$b#%You tell him it's not creepy if he gives the compliment, but doesn't make a big deal out of it. He nods slowly.#$b#I see. Well, I'll see you later then.$h",
+								"fall_1": "So you and Haley have been hanging out more. I'll admit, I think she really like having a friend. Last time I went to the saloon, Emily said Haley's been doing pretty well lately too.$h#$b#As much as it sucks that we're not going out, it does make me happy to see her more upbeat.",
+								"fall_13": "Hey, nice bracelet!$h#$b#I saw Haley wearing one too, are you guys matching? Like friendship bracelets?#$b#That's pretty cool!$h",
+								"fall_20": "Heard through the grapevine that Haley's got a crush on someone...$h#$b#Think it could be me?$h#$b#Haha, kidding. I know she's way over me now.#$e#I let you know if I hear anything else.$h",
+								"winter_3": "Have you noticed Haley acting kind of weird lately?$9#$b#I dunno, something's not right. I tried asking but she just brushed me off. I'm kinda worried...$9#$b#%Her oddness is not lost to you either. You have noticed she's acting odd.You tell him you're worried too, but she hasn't said anything.#$b#Damn...well, I hope she's okay.$s",
+								"winter_6": "Wow. Wow, um...$7#$b#...$7#$b#...she really is a lesbian...$7#$b#...$7#$b#...I was totally right.",
+								"winter_10": "I saw Haley looking at bouquets at Pierre's...think she wants to ask someone out?#$b#%You think about this...you know that you've gotten close with her, and that she's totally been a little flirty with you...maybe it's you? You say you don't know. Maybe she just liked the flowers.#$b#True, she's a pretty big fan of flowers.",
+								"winter_14": "Damn! You're actually dating her?!$7#$b#I'm not gonna lie, you're pretty lucky!$7#$b#She's beautiful, smart, talented...$l#$b#Well. I'm just glad she's with someone who truly cares about her.$h#$b#Well, I hope you guys have a good run. Congrats.$h",
+								"spring_25_2": "Hey, you and Haley looked great at the Flower Dance!$h#$b#You're waaay better at dancing than I am. Haley must've loved that.",
+								"summer_8_2": "@, I just wanted to say that your wedding was really nice. You and Haley looked really, really happy.$h#$b#I'm really happy for you guys, and I hope married life is good to you!$h"
+
+          }
+     },
+
+		 {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+							"spring_7": "Hi, @!$h#$b#How are you settling into our little town? I know everyone's been all abuzz since your arrival.#$b#Well, I hope you have a wonderful day! Remember to stop and smell the flowers!$h",
+							"spring_17": "My sister doesn't do much around the house, and it stresses me out a bit. I wish I knew how to get her to be more receptive.#$b#I cant even yell at mom to make her do something anymore! Not that I would now, of course.",
+							"spring_20": "Ooh, the Flower Dance is in a few days! It's my sister's favorite festival!$h#$b#She's been Flower Queen for so long, I can't even remember who the last one was.#$b#I'm proud of her.",
+							"spring_27": "There's a new rumor going around about me lately, and I'm not really sure what to do about it. I'm not very confrontational...$s#$b#Gus, my boss, said he heard Alex say something about me at the saloon, and I think it just kinda spread.$s#$b#%You tell her you're sorry, and that you haven't participated in any rumor spreading.#$b#Oh, I'm fine, dont worry. Rumors about me are nothing new.#$b#I'm kind of the town's weirdo, but it doesn't bother me at all. I'm true to myself and that's all that matters.$h",
+							"summer_3": "The warm weather is lovely! It's my sister's favorite season, she spends so much time down at the beach.#$b#You know, if you want to hang out with her, I'd try inviting her to the beach!$h",
+							"summer_6": "So, I heard a while back that you were a lesbian.#$b#I just wanted to let you know that I'm a huge supporter of the community. I'm bisexual myself, actually!$h#$b#And it doesn't bother me that those kinds of rumors are spread about me, but I know thats not the case for everyone.$u#$b#I know it's hard being queer in such a small town, So if you ever need anything, I'd be happy to be here for you!$h#$b#%You thank her, and say it's nice to have someone else like you here in town. She gives you a big hug, then waves goodbye.",
+							"summer_10": "Haley told me she's got a date at the saloon in a few days. I'm surprised, she hasn't seemed interested in dating for a while. I know Alex likes her, so maybe it's with him?",
+							"summer_15": "Haley wasn't doing very well after she got home last night...I came home from work and she was all bundled up on the couch, saying she just wanted me to sit with her...$s#$b#I've never seen her act like this after a date before...$s",
+							"summer_16": "I feel kind of bad that I'm not really sure how to help Haley. And she won't really talk to me either, so..$s#$b#Well, I just hope she's okay. You'll let me know if you find anything out?$s#$b#%You promise you will; you care about Haley very much. Emily thanks you, then takes her leave.",
+							"summer_20": "Haley's been doing better lately. She says hanging out with you has helped. I'm really glad she has a friend like you, @.$h",
+							"summer_21": "I think I should do a little gardening in our planter box soon. Haley usually tends to it, believe it or not.$h#$b#She's been distracted lately, so I should probably help out. It's the least I can do!",
+							"summer_27": "How are you holding up, @? You seem to being doing really well, but I just wanted to check in.#$b#%You tell her you're doing well, and that you're quickly becoming very comfortable in town.#$b#That's so great! I'm so glad to hear it!$#$b#Hey, how would you feel about coming over to meditate sometime? I could use the company.",
+							"fall_1": "I've noticed you and my sister have been hanging out a lot more.#$b#Has she said anything about something bothering her? She seems rather distracted again recently...$s",
+							"fall_13": "Oh!! That's my great-grandmother's bracelet! Did Haley give it to you?$h#$b#%You say that she gave it to you as a friendship bracelet...even if she did say friendship pretty weirdly.#$b#Weirdly? Huh. Maybe she was just nervous from having a new best friend.",
+							"fall_20": "I see...Haley's been acting funny because she's got a new crush. She won't tell me who it is though.#$b#She's been talking to me far more often lately, so it's kind of weird she's keeping this from me.",
+							"winter_3": "I'm really nervous now...Haley's been kind of cooped up for days, and she won't talk to me.$s#$b#@, do you have any clue what's wrong?$s#$b#%You tell her you have no clue, but you've also noticed she's been distant...#$b#It feels like she's getting ready to admit something big...$s",
+							"winter_6": "Well, that sure solved the mystery!$h#$b#I'm so unbelievably proud of her, and I'm so happy she felt comfortable enough to tell us first!$h#$b#@, thank you for being there for my sister, it means so much to me that you're here to help support her.$h",
+							"winter_10": "Hehe...I know something you don't.$h#$b#And I'm not telling!$h#$b#Haley would kill me if I did.",
+							"winter_14": "I was pretty good at hiding that secret, huh?$h#$b#Welcome to the family, @, we're happy to have you!$h",
+							"spring_25_2": "Awww, you two looked so adorable at the Flower Dance!$h#$b#It was hard to see because I was dancing too, but you did great, and Haley looked way happier than she was previous dances.",
+							"summer_8_2": "@, I know I said welcome to the family when you started dating, but...truly, welcome to the family now.$l#$b#I sent a postcard and wedding photo to our parents, so hopefully they get the good news soon.$h",
+							"summer_20_2": "I'll be honest, it does get pretty lonely now that Haley's gone, but...don't worry about me. I'm far happier that Haley is somewhere safe, with someone who loves her."
+
+				}
+	 },
+ {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Haley",
+        "Entries": {
+
+          "NPC.cs.3962": "Oh my god, @...$h#$b#I know I was dropping crazy hints, but I was seriously *minutes* away from giving in and asking you myself!$h#$b#Thank you. I absolutely will be your girlfriend. And...$l#$b#You'll be *my* girlfriend...$l#$b#Wow...girlfriend...$8",
+          "NPC.cs.3963": "Oh my god, @...$h#$b#I know I was dropping crazy hints, but I was seriously *minutes* away from giving in and asking you myself!$h#$b#Thank you. I absolutely will be your girlfriend. And...$l#$b#You'll be *my* girlfriend...$l#$b#Wow...girlfriend...$8",
+          "NPC.cs.3980": "...$8#$b#@...$8#$b#Do you really mean this..?$8#$b#%Haley looks like she's going to burst into tears.#$b#I-I can't believe this, I...$8#$b#I will absolutely marry you.$l#$b#This is...absolutely insane for me, considering a year ago I was in so much denial that it almost wasn't healthy.$7#$b#You have helped me change in so many ways, @, and it would be the biggest honor of my entire existence to be your wife.$l#$b#I love you, @. Sooooo so much.#$b#%Haley gives you a big kiss after slipping on the pendant. She hugs you tight, and you can hear her sniffle as she pulls away.#$b#Well...Mayor Lewis says these things only take about three days to set up, so...I'll see you at the altar.$l",
+          "Event.cs.1736": "Awww, babe! You wanna dance with me?$h#$b#You're so sweet, you know that?$l#$b#I'll absolutely dance with you!$h",
+          "after_wedding": "That was...a beautiful ceremony, @.$l#$b#I don't think I've ever been *this* happy before.$h#$b#Thank you for everything, @. I love you.$l",
+          "NPC.cs.4001": "Babe, I wanted to give you that as like, a symbol of my love for you.$l#$b#Of course nothing can compare to my *actual* love, but I figured that's a close second!$h",
+          "NPC.cs.4439": "I'm so nervous...$s#$b#I'm kind of worried about how much the new baby will change things. We'll be okay, right?$s",
+          "NPC.cs.4440": "You know, I really hope our adoption stuff gets approved. There's so many kids out there who need a family...$s#$b#Even if that family has two moms!$h",
+          "NPC.cs.4441": "I finally filed the adoption papers with our social worker!$h#$b#Hopefully everything will move through the system smoothly, and...we'll have our baby!$h",
+          "NPC.cs.4449": "I'm *exhausted* lately...$s#$b#I had no idea how annoying being a parent could be sometimes...$u",
+          "NPC.cs.4452": "Baby, I know you're busy with farm work and everything but I can't do this parenting thing on my own.$s#$b#Can you watch the kids while I take a bath or something? I really need alone time.$s",
+          "NPC.cs.4406": "I am *so* not in a good mood...$u#$b#I think I might just stay in bed, sorry @...",
+          "NPC.cs.4462": "*yawn* It was pretty nice this morning, so I tended to the crops a little. Hope it helped a little, it's about all I can do on the farm!$h",
+          "NPC.cs.4463": "#$e#I also filled {0}'s water bowl.#$b#That's *also* about all I can do.$h.",
+          "MultiplePetBowls_watered": "#$e#I also filled the pets' water bowls.#$b#That's *also* about all I can do.$h.",
+          "ExtraDialogue_NewChild_SecondChild1": "Ahhh, look at the little family we've grown!$h#$b#I love you, @.$l",
+          "ExtraDialogue_NewChild_SecondChild2": "Look how far we've come, @. Two beautiful kids...$l#$b#I couldn't be happier.$l",
+          "ExtraDialogue_NewChild_Adoption": "Awww I'm so happy!! I can't believe we finally got to welcome {0} into our life.$h",
+          "ExtraDialogue_NewChild_FirstChild": "Awww I'm so happy!! I can't believe we finally got to welcome {0} into our life.$h",
+          "ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerMale": "Oh my god, @! I told you to be careful!$u#$b#*sigh* Let's just get you home, okay?$s",
+          "ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerFemale": "Oh my god, @! I told you to be careful!$u#$b#*sigh* Let's just get you home, okay?$s",
+          "eventSeen_13_memory_oneweek": "%Haley greets you with a smile. You notice that she's wearing her Great-Grandma's bracelet.",
+          "eventSeen_12_memory_oneweek": "Hey, you look great today!$h#$b#I thought I saw you take one of my magazines, hehe...$h",
+          "eventSeen_12_memory_twoweeks": "My parents sent another postcard...They're on some majorly expensive cruise, and they say me and Emily can join whenever.$s#$b#And like, good for them. But nobody wants to go on a cruise with their parents.",
+          "eventSeen_11_memory_oneweek": "%Haley is humming happily to herself. She waves at you, giving you a bright smile.",
+          "eventSeen_11_memory_twoweeks": "Hehe...remember our first kiss?$h#$b#I can't believe I was so nervous!$h",
+          "dating_Haley": "I'm serious, I almost asked you out myself!$h#$b#Now, let's hope you don't take too long the next time you ask me an important question! *wink wink*$h",
+          "AcceptBirthdayGift_Loved": "*gasp*... You got this for me? Wow, @, this is the best birthday gift ever!$h",
+          "AcceptBirthdayGift_Liked": "Awwwww, you got me a birthday gift? Well, I really like it!$h",
+          "AcceptBirthdayGift_Negative": "Gross! You got me this on my birthday? What's wrong with you!$a",
+          "AcceptGift_(O)StardropTea": "For me? Ooooh... I can't decide if I should drink it, or use it as shampoo...",
+          "AcceptGift_(O)88": "$c 0.8#Is that... coconut? I love this!$h#Mmm.... coconuts remind me of warm, sunny days at the beach. When I hold one, I feel like I'm there... even when it's raining.",
+          "AcceptGift_(O)421": "How did you know these were my favorite flowers?$8#$b#Thank you so much, I love them!$h",
+          "AcceptGift_(O)221": "Ohhhh my god, how did you know I was craving this?!$8#$b#Thank you! You're such a sweetheart!$h"
+        
+
+
+          }
+     },
+     {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "Game1.cs.2782": "$q 10001 after_wedding#...#$r 10001 0 after_wedding# Wasn't that beautiful?"
+
+      }
+    },
+    {
+    
+      "Action": "EditData", 
+      "Target": "Data/Events/Saloon",
+      "When": "season_day summer 14",
+      "Entries":{
+            "230531001/f Haley 750/f Alex 750/f Emily 750/t 1800 2100/Season Summer/u 14": "sweet/3 21/Haley 2 20 1 Alex 5 20 3 Emily 10 18 2 farmer -1000 -1000 0/skippable/pause 1500/emote Alex 32/speak Alex \"You know, I'm really happy you decided to go on a date with me, Haley!$h#$b#Sorry if I pestered you too much or anything.$h\"/speak Haley \"No, no, you didn't.$h#$b#I've just been, um, busy lately, you know? Hard to find time.\"/speak Alex \"Totally. So, you wanna beer or something? I'm starving.$h\"/speak Haley \"Oh, sure, I'll have-\"/move Emily 0 -1 3/textAboveHead Emily \"Be right with you!\"/move Emily -6 0 2/move Emily 0 2 2/speak Emily \"Hey guys!#$b#Ooh, is this the date you were talking about, Haley?$h\"/emote Alex 32/speak Haley \"Yeah, actually. Finally said yes, haha.\"/speak Emily \"I see. Well, what can I get you two tonight?\"/speak Alex \"Hey Ems. We'll have two beers and two burgers.$h\"/speak Haley \"Yeah, that sounds great.$h\"/emote Emily 8/speak Emily \"You sure? I know you prefer the-$3\"/speak Haley \"It's fine Emily, really.$7\"/speak Emily \"...$3#$b#All right. I'll be back with your drinks in a sec, then...$3\"/faceDirection Emily 0/globalFade/viewport -2000 -2000/changeLocation Town/warp Emily -1000 -1000/warp farmer -1000 -1000/viewport 23 90/warp Haley 22 90/ warp Alex 25 90/playMusic nightTime/pause 2000/speak Haley \"Thanks for walking me home. I had fun tonight.\"/speak Alex \"Yeah, it was great.$h#$b#Soooo...$h\"/emote Haley 8/move Alex -1 0 3/speak Alex \"Think I could...$l#$b#...have a kiss, for such a great date?$l\"/emote Haley 16/speak Haley \"Oh!$12#$b#...$12#$b#S-Sure...$12\"/pause 1000/move Haley 1 0 1/pause 500/positionOffset Haley 10 0/positionOffset Haley 8 0/positionOffset Alex -15 0/animate Haley false false 2000 28/animate Alex true false 2000 42/pause 1000/pause 500/emote Alex 20/speak Alex \"Night, Haley. See you later.$h\"/faceDirection Alex 3/emote Alex 20/move Alex 5 0 1/textAboveHead Haley \"Goodnight, Alex...\"/move Alex 0 -9 0/pause 1500/faceDirection Haley 2/shake Haley 500/pause 500/emote Haley 28/speak Haley \"Why...$s#$b#...why didn't I like that..?$s#$b#I like *him*, don't I..?$s\"/pause 500/showFrame Haley 22/pause 500/speak Haley \"...don't I..?$s\"/end position 14 23"
+            }  
+    },
+{
+    "Action": "EditData", 
+    "Target": "Data/Events/Beach",
+    "When": "HasSeenEvent 230531001 AND season_day fall 2",
+    "Entries": {
+          "230531002/f Haley 1250/t 1000 1700/Season Fall/u 2": "echos/40 25/farmer 40 18 2 Haley 41 23 2/skippable/move farmer 0 5 2/pause 500/emote Haley 40/pause 500/faceDirection farmer 1/emote Haley 16/speak Haley \"Oh, @!$12\"/faceDirection Haley 3/pause 500/speak Haley \"I didn't see you there.$7\"/pause 500/faceDirection Haley 2/pause 500/faceDirection farmer 1/pause 500/emote farmer 8/pause 500/speak Haley \"What am I doing here..?$s#$b#...$s#$b#...I don't know if I should...*sigh*$s\"/pause 500/faceDirection farmer 2/emote Haley 40/pause 500/faceDirection Haley 3/pause 500/faceDirection farmer 1/pause 500/speak Haley \"A while ago, I went on a date with Alex...$7#$b#And I had a good time, I think. But he asked for a kiss goodnight.$7#$b#So I kissed him.$7\"/emote farmer 16/speak Haley \"No! No, he didn't force me at all. don't worry!$12#$b#But the thing is...I didn't like it. At all.$s#$b#I thought I had a crush on him for the longest time, but...I'm thinking that it actually wasn't a crush, but something else.$7#$b#That got me thinking about when we talked a little while ago...and you said you were...$7#$b#You know...$7#$b#...into girls.$7\"/faceDirection farmer 1/pause 500/emote farmer 8/pause 500/emote Haley 40/faceDirection Haley 2/pause 500/speak Haley \"...So I guess what I'm trying to ask is...How did you know?$7\"/pause 500/emote farmer 16/pause 500/emote farmer 40/pause 500/emote farmer 40/pause 500/emote farmer 20/pause 500/faceDirection Haley 3/speak Haley \"...$8#$b#...$8#$b#...I see.$8\"/pause 500/emote farmer 8/pause 500/speak Haley \"I only ask because...I've been thinking lately...that I'm not actually who I thought I was.$7#$b#And...I don't want to say it's because of you, but you've given me a lot to think about.$7\"/faceDirection Haley 2/pause 500/speak Haley \"I'm just...confused.$s#$b#I thought I had everything figured out, you know?$7#$b#Especially at my age.$s\"/pause 1000/emote farmer 40/emote farmer 8/pause 500/speak Haley \"No! I'm not-!$12#$b#...$s\"/pause 500/emote Haley 40/pause 500/emote Haley 28/speak Haley \"Ugh...whatever.$s\"/pause 500/showFrame Haley 22/pause 500/globalFade/viewport -1000 -1000/end position 38 3"   
+   }
+},
+{
+    
+      "Action": "EditData", 
+      "Target": "Data/Events/HaleyHouse",
+      "When": "season_day winter 5",
+      "Entries":{
+        "230531003/f Haley 1500/f Emily 1500/t 1000 2300/Season Winter/u 5": "desolate/23 18/farmer 9 19 1 Haley 13 16 1 Emily 16 12 2/skippable/positionOffset Haley 0 -20/move farmer 4 0 1/move farmer 0 -1 0/pause 500/emote farmer 8/pause 1000/faceDirection Haley 2/showFrame Haley 22/pause 500/speak Haley \"@...It's good you're here...$s#$b#There's something I think I really need to tell you and Emily...I need you guys to hear it first.$7\"/pause 500/emote Haley 40/pause 500/emote farmer 8/pause 1000/speak Haley \"Hey, Emily? Can you come out here?$7\"/pause 1500/doAction 16 12/pause 500/move Emily 0 4 3/speak Emily \"Did you need someth-#$b#Hey, what's wrong? Is everything okay?$3\"/pause 500/emote Haley 40/pause 500/speak Haley \"%Haley doesn't speak. She seems to be hesitating.\"/pause 500/speak Emily \"Haley..?$s#$b#Talk to me, you know I'm here for you.$s\"/speak Haley \"%Haley still doesn't say anything. She looks like she might cry.\"/pause 500/speak Emily \"@, do you know what's wrong?$s\"/pause 500/emote farmer 28/pause 500/speak Haley \"I'm sorry, I'm just...$s#$b#I don't know how to say this.$s\"/move Emily -2 0 3/speak Emily \"Take your time. Whatever you need to tell me, I'm here.$s\"/pause 500/emote farmer 20/pause 500/shake Haley 1000/pause 500/speak Haley \"...I've...done a lot of thinking lately.$s#$b#Like, a *lot* of thinking. Or, relfecting as Emily would say, or whatever. Anyway.$7#$b#I...finally realized that...$s#$b#%Haley takes a deep breath.#$b#...$s#$b#...$7#$b#...I, um...$s#$b#...I don't like boys. At all.$7\"/showFrame Haley 0/speak Haley \"I'm...#$b#I'm a lesbian!$h\"/jump Emily 8/jump farmer 8/speak Emily \"Oh my god, Haley!!!$h#$b#I'm so, so happy you've discovered this about yourself!$h\"/pause 500/emote farmer 20/pause 500/speak Haley \"...$8#$b#...I can't believe I said it...$8#$b#I'm a lesbian!$h\"/speak Emily \"Oh Haley, I'm so so proud of you!$h#$b#But, um...did you not want to talk things through with me?$s#$b#I know that we weren't always the closest, but we've gotten so much better...I'm still your sister, and I still care.$s\"/faceDirection Haley 1/speak Haley \"It had nothing to do with that, Emily.$s#$b#The thing is, I was just trying to process it myself. I didn't want to, like, tell you anything only for it to not be true, you know?$s\"/speak Emily \"Yeah, I understand. I'm sorry. But regardless...$u#$b#I love you, Haley. Whoever you are and whoever you love, you'll always be the same Haley.$h\"/emote farmer 32/speak Haley \"%Haley once again looks like she might start crying.#$b#Thank you so much, guys. You have no idea how much your support means to me, especially when...$8#$b#It's still so new and different, and I'm still a little scared...$8#$b#But...you're my favorite people, so I can do this!$h\"/emote farmer 20/speak Emily \"Absolutely!$h#$b#Now, how about we go out to Zuzu City and treat you to some Pink Cake?$h\"/jump Haley 8/emote Haley 20/emote farmer 32/globalFade 0.007 true/addItem 221/end dialogue Haley \"That was super terrifying, but it feels soooo good to finally say it!$h#$b#Did you feel the same way when you came out? God, it's exhilerating!$h\""
+    }
+  },
+      {
+        "Action": "EditData", 
+        "Target": "Data/Events/HaleyHouse",
+        "Entries": {
+          "15/f Haley 2250/p Haley": null
+        }
+
+      },
+{
+        "Action": "EditData", 
+        "Target": "Data/Events/HaleyHouse",
+        "When": "DAY_OF_MONTH 5 AND SEASON spring",
+        "Entries": {
+
+          
+            "15/f Haley 2250/p Haley": "musicboxsong/-1000 -1000/farmer 5 9 0 Haley -100 -100 2/skippable/specificTemporarySprite haleyRoomDark/viewport 5 4 true/pause 500/emote farmer 8/move farmer 0 -4 0/move farmer -1 0 0/move farmer 0 -1 0/pause 1000/animate farmer false false 650 15/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound woodyStep/pause 200/pause 800/speak Haley \"Hey, is that @? Come on in, but close the door quickly!$h\"/pause 1000/warp farmer -100 -100/playSound doorClose/globalFade/viewport -1000 -1000/changeToTemporaryMap Darkroom false/warp Haley 1 5/warp farmer 3 7/viewport 4 4 true/faceDirection Haley 2/pause 800/speak Haley \"Hey, @...come here.\"/move farmer 0 -1 0/move farmer -1 0 3/move farmer 0 -1 3/faceDirection Haley 1/pause 1000/faceDirection farmer 0/pause 500/faceDirection farmer 1/pause 500/faceDirection farmer 2/pause 500/faceDirection farmer 3/pause 500/speak Haley \"This is my new darkroom, for developing my photos! I've been working on it for a while now. What do you think?$h\"/pause 500/emote farmer 32/speak Haley \"Haha, thanks!$h#$b#So, um, I'm glad you're here, for more than one reason...\"/pause 500/emote Haley 20/speak Haley \"We've been dating for a while now, and, um...$l#$b#I know I've been like, super nervous to kiss you.$l#$b#But isn't this lighting kind of romantic?$l\"/emote farmer 16/pause 500/emote farmer 20/pause 500/speak Haley \"Do you, um...$l#$b#Do you think we could finally try..?$13\"/pause 500/emote farmer 20/pause 400/positionOffset farmer 16 0 true/animate farmer true true 100 101/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame Haley 28/pause 500/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/positionOffset farmer -2 0/positionOffset Haley 2 0/pause 50/pause 700/playSound dwop/specificTemporarySprite heart 2 4/pause 3000/showFrame Haley 4/stopAnimation farmer/faceDirection farmer 3 /speak Haley \"Wow...I guess I finally know what it feels like to actually *enjoy* a kiss...$l#$b#...can we do it again?$13\"/pause 500/emote farmer 20/showFrame Haley 28/positionOffset farmer 16 0 true/animate farmer true true 100 101/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/pause 4000/showFrame Haley 4/stopAnimation farmer/faceDirection farmer 3/pause 500/speak Haley \"@...you're unbelievable...$13#$b#You seriously know what youre doing...$13#$b#I...*ahem*...I actually have some work to do, so...#$b#*sigh* We'll have to pick this up later.\"/pause 500/emote farmer 20/pause 500/speak Haley \"Maybe you could come by later.#$b#I'll have a lot more free time tonight, so...$l\"/pause 500/emote farmer 32/pause 500/emote farmer 20/pause 500/emote Haley 20/pause 500/speak Haley \"Awesome...See you later then, babe.$11\"/globalFade/viewport -1000 -1000/pause 1000/end dialogue Haley \"Ugh, I'm still all flustered.$13#$b#What did you do to me, @?$13\""
+    }
+},
+
+{
+  "Action": "EditData", 
+  "Target": "Data/Events/FarmHouse",
+  "When": "FirstTimeEvent true AND season_day summer 8",
+  "Entries": {
+
+    
+      "230531004/f Haley 2500/y 2/t 2000 2300/Season Summer/u 8": "musicboxsong/24 11/farmer 17 9 0 Haley 25 5 2/skippable/addLantern 3 22 -4 5/makeInvisible 24 4 2 4/makeInvisible 20 4/changePortrait Haley Beach/changeSprite Haley Beach/move farmer 8 0 1/move farmer 0 -2 0/emote farmer 16/pause 1000/emote Haley 20/speak Haley \"Welcome home, babe.$l#$b#Um...$l#$b#What...what do you think of my new lingerie..?$l#$b#%Your jaw drops. She looks stunning, and you tell her that. You also ask what this is all about.#$b#Well...we're married now, aren't we..?$13#$b#We haven't...you know...yet.$l#$b#So...I figured we could finally do it.$13\"/move farmer 1 0 0/move farmer 0 -2 3/faceDirection Haley 1/speak Haley \"%You check in with her; Is she sure? She's not feeling rushed?#$b#Baby, please stop worrying about me for just a sec, okay? Come here.$l\"/faceDirection Haley 1/pause 500/emote Haley 20/pause 1000/animate Haley true false 2000 16/animate farmer true false 2000 101/specificTemporarySprite heart 26 4/pause 1500/stopAnimation Haley/stopAnimation farmer/speak Haley \"I wouldn't be doing this if I wasn't ready, @. I promise.$l#$b#%You sigh and nod, smiling warmly at her. You tell her you're ready for this too, and she grins.#$b#So...does this mean you'll take me to bed?$13\"/pause 500/emote farmer 20/speak Haley \"%You gently squeeze her hand. You tell her that yes, you'll absolutely take her to bed, and that you want nothing more.#$b#Wow. Okay. To bed then, my beautiful wife...$l\"/animate Haley true false 2000 16/animate farmer true false 2000 101/pause 2000/stopAnimation farmer/faceDirection farmer 3/emote farmer 20/emote Haley 20/faceDirection farmer 3/move Haley 0 -1 0 farmer 0 1 2/move Haley -2 0 3 farmer -6 0 1/textAboveHead Haley \"Get over here <\"/move farmer 0 -2 1/move farmer 1 0 1/pause 2000/emote Haley 20/emote farmer 20/pause 500/positionOffset farmer 16 0 true/animate Haley false true 2000 16/animate farmer false true 5000 101/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/showFrame Haley 16/pause 500/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/positionOffset Haley -2 0/pause 50/positionOffset farmer 2 0/pause 2000/globalFade/viewport -1000 -1000/pause 1000/end"
+}
+},
+{
+  "Action": "EditData", 
+  "Target": "Characters/Dialogue/Haley",
+  "When": {"GenderNeutral": true},
+  "Entries": { 
+    "Introduction": "Oh... You're that new farmer, or whatever. Aren't you?#$e#Huh? Oh... I'm Haley.#$e#Hmm... If it weren't for those horrendous clothes you might actually be cute... Actually, never mind.$h",
+    "spring_16": "Did you get a new outfit?#$b#Wait, is that same outfit from last week?$s#$b#Maybe you should borrow one of my fashion magazines...$s",
+    "dating_Haley_memory_oneday": "It's actually crazy to me that I have a partner like you.. $l#$b#I still have so much to learn about what it means to be a lesbian, but you're helping me every day..$l#$b#@, you've made me so happy.$l",
+    "winter_21": "I think Emily is worried about me… she keeps asking if I'm okay, if I need anything, if I want to meditate…$s#$b#I think she thinks I'm not worked up enough over my first lesbian relationship!$h#$b#Well, maybe I'll meditate with her to calm her down.",
+    "Indoor_Night_Haley": "Aww, there's my big, strong, gorgeous spouse.$l#$b#You look sooo tense...$s#$b#Why don't we get to bed and I can help you...de-stress.$13",
+    "spring_23_2": "Well, tomorrow's the Flower Dance.#$b#Do you think Mayor Lewis will let us both be like, Flower… Royals? Maybe you wouldn't wanna be queen, but I still wanna share my title with my awesome, beautiful partner.#$b#Yeah, there should totally be two Flower Royals."
+}
+},
+
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "When": {"GenderNeutral": true},
+      "Entries": {
+              "spring_7": "Hey. Newbie. I heard you were gay. #$q 30/31 spr7_followup#Does that mean I'm out of the game? #$r 30 -20 spr7_excuseme#Excuse me?! Yeah, you are absolutely out! #$r 30 0 spr7_yes#Um...yeah. Sorry. #$r 31 +30 spr7_notmytype#Yeah, sorry dude. You're not really my type, know what I mean?.",
+                  "spr7_excuseme": "Okay, you didn't have to bite my head off. I was joking.$a",
+                  "spr7_yes": "Damn. Okay.#$b#See ya.",
+                  "spr7_notmytype": "Ha! Good one!$h#$b#Yeah, I get it. I thought ladies couldn't resist me, but...you're not a lady either, huh?$h#$b#Guess I have some learning to do. See you around.",
+                  "spr7_followup": "That's pretty cool. I knew a gay guy in high school. I think he played volleyball or something.",
+              "summer_3": "Hey, I wanna apologize for being kinda weird about the g-$s#$b#Sorry, *lesbian* thing.$h#$b#I looked it up online a couple days ago, some lesbians don't like being called gay, right?#$b#%You tell him it's just a matter of personal preference, and sometimes some people use them interchangably.#$b#I see. Well, I wanted to learn a little bit. I don't wanna treat you any different from anyone else, I'm not that kinda guy.#$e#So, what's it like kissing a girl as a lesbian?#$b#Kidding, kidding!!!$h#$b#See ya.",
+              "summer_27": "I saw you and Haley at the beach the other day. You guys looked great in your swimsuits!$h#$b#And I mean that in the least creepy way possible.$h#$e#I'll be honest, I've been really trying to be normal about being around women and...those with boobs or something, I guess?#$b#It isn't creepy to tell a woman she looks good right?#$b#%You tell him it's not creepy if he gives the compliment, but doesn't make a big deal out of it. He nods slowly.#$b#I see. Well, I'll see you later then.$h"
+
+
+}
+},
+{
+  "Action": "EditData", 
+  "Target": "Strings/Lexicon",
+  "When": {"GenderNeutral": true},
+  "Entries": { 
+    "Pronoun_Female": "them",
+    "Possessive_Pronoun_Female": "their"
+
+  }
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Events/HaleyHouse",
+  "When": {"GenderNeutral": true},
+    "Entries":{
+        "11/f Haley 500/p Haley/p Emily": "50s/6 20/farmer -10 -10 0 Haley 5 20 1 Emily 8 20 3/skippable/pause 1000/shake Haley 500/pause 500/speak Haley \"Urgghh! I always clean under the cushions! It's YOUR turn this week!$a\"/emote Emily 12/speak Emily \"You're being childish, Haley. I do the vast majority of work in this house, and you know it.$u\"/pause 200/warp farmer 2 24/playSound doorClose/pause 400/faceDirection Haley 2/faceDirection Emily 2/speak Haley \"Oh, it's that new farmer.$7\"/faceDirection Emily 3/speak Emily \"They have a name, you know.$u\"/move farmer 0 -1 1/move farmer 3 0 0/faceDirection Emily 2/speak Haley \"Hey, I bet you'll understand my point of view here.\"/emote farmer 8/speak Emily \"*sigh*... I'm really sorry to involve you in this, @. Haley is complaining because I asked her to clean under the cushions.$u\"/faceDirection Haley 1/speak Haley \"$q 45 null#It's only because I cleaned them last week!$a#$r 46 -50 Event_clean2#Stop whining and just clean it!#$r 45 30 Event_clean1#Haley, why not have this be your one weekly job?#$r 46 -30 Event_clean3#Emily, take the high road and do it this time.\"/fork haleyWontDoIt/stopMusic/faceDirection Haley 3/emote Haley 12/pause 400/faceDirection Haley 1/speak Haley \"Alright, you win. I guess this can be my job every week. Then there won't be any reason to argue over it.$u\"/faceDirection Haley 2/speak Emily \"Thanks, @. That was a great solution.$h\"/pause 1000/end"
+
+    }
+},
+{
+      "Action": "EditData",
+      "Target": "Data/Weddings",
+      "When": {"SpecialWedding": true},
+      "Entries": {
+          "EventScript": {
+            "default": "sweet/-1000 -100/farmer 30 6 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 31 6 2]] Lewis 30 7 2 otherFarmers 29 69 0[SetupContextualWeddingAttendees]/changeLocation Beach/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 31 6] [EscapedText showFrame spouse 36]]/specificTemporarySprite wedding/viewport 30 8 true/pause 4000/speak Lewis \"It's such a beautiful day!$h#$b#Especially for a wedding between two of our own residents of Pelican Town!$h\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/faceDirection Lewis 0/pause 1000/speak Lewis \"None of us really knew if @ would fit in, or be a productive member of our community.#$b#But @ did that, and more!$h#$b#Now, @ is marrying one of our very own!$h#$b#Let's get to it, then. Do you have vows to tell each other?\"/emote Haley 20/move Lewis 0 1 0/playMusic none/pause 1000/showFrame Lewis 20/speak Haley \"I have something to say, yeah.$l#$b#@...you have changed my life in ways I never thought possible.$l#$b#Becoming your wife is...is even more than a dream come true.$l#$b#From today on, we'll be together no matter what. I love you, @. Sooo much.$l\"/pause 500/emote farmer 20/speak Lewis \"%You tell Haley you love her too, more than anyone. You say that you can't wait to start a long, wonderful life together with her.#$b#That was beautiful, you two.$h#$b#Now, as the mayor of Pelican Town and bearer of the Matrimonial Seal, I now pronounce you...#$b#Married!!$h#$b#You may kiss your spouse!$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 31 5/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/move Lewis 0 2 0 true/pause 3000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/emote farmer 20/emote Haley 20/globalFade/viewport -1000 -1000/pause 1000/message \"I've married the love of my life...I can't believe it!!\"/pause 500/message \"Life will be different...but I cant wait to see where life takes us now!\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding"
+          },
+        
+        "Attendees": {
+          "Marnie": {
+            "Id": "Marnie",
+            "Condition": "!SEASON winter",
+            "Setup": "Marnie 29 9 0",
+            "Celebration": "faceDirection Marnie 1 true",
+            "IgnoreUnlockConditions": false
+          },
+          "MarnieWinter": {
+            "Id": "Marnie",
+            "Condition": "SEASON winter",
+            "Setup": "Marnie 29 9 0",
+            "Celebration": "faceDirection Marnie 1 true",
+            "IgnoreUnlockConditions": false
+          },
+          "Caroline": {
+            "Id": "Caroline",
+            "Condition": null,
+            "Setup": "Caroline 32 9 0",
+            "Celebration": "faceDirection Caroline 1 true/move Caroline 0 -1 3 true",
+            "IgnoreUnlockConditions": false
+          },
+          "Pierre": {
+            "Id": "Pierre",
+            "Condition": null,
+            "Setup": "Pierre 33 9 0",
+            "Celebration": "faceDirection Pierre 3 true",
+            "IgnoreUnlockConditions": false
+          },
+          "Gus": {
+            "Id": "Gus",
+            "Condition": null,
+            "Setup": "Gus 34 9 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Clint": {
+            "Id": "Clint",
+            "Condition": null,
+            "Setup": "Clint 34 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "George": {
+            "Id": "George",
+            "Condition": null,
+            "Setup": "George 29 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Evelyn": {
+            "Id": "Evelyn",
+            "Condition": null,
+            "Setup": "Evelyn 28 10 0",
+            "Celebration": "faceDirection Evelyn 3 true",
+            "IgnoreUnlockConditions": false
+          },
+          "Pam": {
+            "Id": "Pam",
+            "Condition": null,
+            "Setup": "Pam 27 10 0",
+            "Celebration": "faceDirection Pam 1 true",
+            "IgnoreUnlockConditions": false
+          },
+          "Jodi": {
+            "Id": "Jodi",
+            "Condition": null,
+            "Setup": "Jodi 35 11 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Linus": {
+            "Id": "Linus",
+            "Condition": null,
+            "Setup": "Linus 32 11 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Robin": {
+            "Id": "Robin",
+            "Condition": null,
+            "Setup": "Robin 28 11 0",
+            "Celebration": "animate Robin false true 500 20 21 20 22",
+            "IgnoreUnlockConditions": false
+          },
+          "Demetrius": {
+            "Id": "Demetrius",
+            "Condition": null,
+            "Setup": "Demetrius 29 11 0",
+            "Celebration": "animate Demetrius false true 500 24 25 24 26",
+            "IgnoreUnlockConditions": false
+          },
+          "Vincent": {
+            "Id": "Vincent",
+            "Condition": null,
+            "Setup": "Vincent 29 12 3",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Jas": {
+            "Id": "Jas",
+            "Condition": null,
+            "Setup": "Jas 28 12 1",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Sam": {
+            "Id": "Sam",
+            "Condition": null,
+            "Setup": "Sam 28 9 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Sebastian": {
+            "Id": "Sebastian",
+            "Condition": null,
+            "Setup": "Sebastian 27 9 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Alex": {
+            "Id": "Alex",
+            "Condition": null,
+            "Setup": "Alex 28 13 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Harvey": {
+            "Id": "Harvey",
+            "Condition": null,
+            "Setup": "Harvey 26 11 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Elliott": {
+            "Id": "Elliott",
+            "Condition": null,
+            "Setup": "Elliott 35 9 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Haley": {
+            "Id": "Haley",
+            "Condition": null,
+            "Setup": "Haley 29 13 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Penny": {
+            "Id": "Penny",
+            "Condition": null,
+            "Setup": "Penny 26 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Maru": {
+            "Id": "Maru",
+            "Condition": null,
+            "Setup": "Maru 27 12 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Leah": {
+            "Id": "Leah",
+            "Condition": null,
+            "Setup": "Leah 33 65 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Abigail": {
+            "Id": "Abigail",
+            "Condition": null,
+            "Setup": "Abigail 26 9 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Emily": {
+            "Id": "Emily",
+            "Condition": null,
+            "Setup": "Emily 33 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Shane": {
+            "Id": "Shane",
+            "Condition": null,
+            "Setup": "Shane 35 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Kent": {
+            "Id": "Kent",
+            "Condition": null,
+            "Setup": "Kent 34 11 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Dwarf": {
+            "Id": "Dwarf",
+            "Condition": "PLAYER_HAS_MET Target Dwarf",
+            "Setup": "Dwarf 33 100 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          },
+          "Sandy": {
+            "Id": "Sandy",
+            "Condition": "PLAYER_HAS_MET Target Sandy",
+            "Setup": "Sandy 32 10 0",
+            "Celebration": null,
+            "IgnoreUnlockConditions": false
+          }
+        }
+      }
+    }
+]
+}

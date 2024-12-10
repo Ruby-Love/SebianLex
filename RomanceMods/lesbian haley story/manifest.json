@@ -1,0 +1,11 @@
+{
+    "Name": "Haley's Coming Out- A Haley Story",
+    "Author": "kettuluv",
+    "Version": "1.1.0",
+    "Description": "Gives a story of lesbian Haley coming to terms with her sexuality.",
+    "UniqueID": "kettuluv.lesbianhaley",
+    "UpdateKeys": [23053],
+       "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

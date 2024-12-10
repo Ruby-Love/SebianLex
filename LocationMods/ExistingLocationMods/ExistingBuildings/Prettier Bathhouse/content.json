@@ -1,0 +1,29 @@
+{
+ 		"Format": "2.0.0",
+
+		"Changes": [
+			{
+				"LogName": "Bath House",
+				"Action": "Load",
+				"Target": "Maps/BathHouse_Entry, Maps/BathHouse_Locker, Maps/BathHouse_Pool", 
+				"FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx",
+			},
+		
+			{
+				"LogName": "Custom Schedule",
+				"Action": "EditData",
+				"Target": "Characters/schedules/Alex",
+				"Entries": {
+				"winter": "900 Custom_BathHouse_Locker 12 23 2 alex_lift_weights/1500 JoshHouse 14 5 2/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep",
+				"winter_17": "900 Custom_BathHouse_Locker 3 5 2 alex_lift_weights/1500 Beach 27 24 1 \"Strings\\schedules\\Alex:winter_17.000\"/2400 JoshHouse 21 4 1 alex_sleep",
+				},
+			},
+			],
+
+		"CustomLocations": [
+			{
+				"Name": "Custom_BathHouse_Locker",
+				"FromMapFile": "assets/Maps/BathHouse_Locker.tmx",
+   			},
+		],
+}

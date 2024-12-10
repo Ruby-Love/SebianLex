@@ -1,0 +1,161 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Remove10HeartEvent":
+		{
+			"AllowValues": "True, False",
+			"Default": "True"
+		}
+	},
+	"Changes": [
+// HALEY
+		{
+			"LogName": "Haley Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Haley": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Emily |contains= Dating, Married, Divorced": true,
+			}
+		},
+		{
+			"LogName": "Haley 10 Heart Event Null",
+			"Action": "EditData",
+			"Target": "Data/Events/HaleyHouse",
+			"Entries":
+			{
+				"15/f Haley 2500/p Haley": null
+			},
+			"When": 
+			{
+				"Relationship:Emily |contains= Dating, Married, Divorced": true,
+				"HasMod |contains= PPAF.Core": false,
+				"Remove10HeartEvent": "True"
+			}
+		},
+// EMILY
+		{
+			"LogName": "Emily Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Emily": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Haley |contains= Dating, Married, Divorced": true,
+			}
+		},
+//SEBASTIAN
+		{
+			"LogName": "Sebastian Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Sebastian": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Maru |contains= Dating, Married, Divorced": true,
+			}
+		},
+		{
+			"LogName": "Sebastian 10 Heart Event Null",
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries":
+			{
+				"384882/f Sebastian 2500/t 2000 2400": null
+			},
+			"When": 
+			{
+				"Relationship:Maru |contains= Dating, Married, Divorced": true,
+				"HasMod |contains= PPAF.Core": false,
+				"Remove10HeartEvent": "True"
+			}
+		},
+//MARU
+		{
+			"LogName": "Maru Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Maru": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Sebastian |contains= Dating, Married, Divorced": true,
+			}
+		},
+		{
+			"LogName": "Maru 10 Heart Event Null",
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"Entries":
+			{
+				"10/f Maru 2500/t 900 1600": null
+			},
+			"When": 
+			{
+				"Relationship:Sebastian |contains= Dating, Married, Divorced": true,
+				"HasMod |contains= PPAF.Core": false,
+				"Remove10HeartEvent": "True"
+			}
+		},
+//MARNIE
+		{
+			"LogName": "Marnie Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Marnie": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Shane |contains= Dating, Married, Divorced": true,
+				"HasMod |contains= foggy.LfL, mush.loveydovey": true,
+			}
+		},
+//SHANE
+		{
+			"LogName": "Shane Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Shane": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Marnie |contains= Dating, Married, Divorced": true,
+				"HasMod |contains= foggy.LfL, mush.loveydovey": true,
+			}
+		}
+    ]
+}
